@@ -7,80 +7,121 @@
 # Western Jihadism Project; Brandeis University
 # Written By: Mason Ware
 
-''' This is a python module to process and identify attributes of a csv file of associations
-    to be entered into the laboratory database. It is understood that the new linkages are entered
-    by respective encoders and not to a template exactly - hence the need for this module in place
-    of simply using regex or egrep. '''
+## This is a python module to process and identify attributes of a csv file of associations
+## to be entered into the laboratory database. It is understood that the new linkages are entered
+## by respective encoders and not to a template exactly - hence the need for this module in place
+## of simply using regex or egrep.
 
 
 import os
 import csv
-import re
+import json
 import pandas as pd     #type: ignore
+
 
 class File:
     ''' Class to represent a file of csv data and all of its attributes. '''
     def __init__(self, file_path: str) -> None:
-        self.file_path: str = file_path
-        self.file_data: "pd.DataFrame"
+        self.in_file_path: str = file_path
+        self.in_json_path: str = 'data/in_associates_2.0.json'
+        self.out_json_path: str = 'data/out_associates_2.0.json'
         
-        self.regex_1d_links: dict() = {
-            'COORDINATOR_OF': ['coordinator', 'of'],
-            'FINANCIAL_LOGISITC_SUPPORTOR_OF': ['financial/logistical', 'supporter', 'of'],
-            'LEADER_OF': ['leader', 'of'],
-            'RECRUITER_OF_SPONSOR_OF': ['recruiter', 'of'],
-            'SOCIAL_FOLLOWER': ['social', 'media', 'follower'],
-            'SPIRITUAL_LEADER_OF': ['spiritual', 'leader', 'of'],
-            'TEACHER_OF': ['teacher', 'of'],
-            'TRANSACTION': ['transaction'],
-            'VISITOR_OF': ['visitor', 'of']
-        }
-        self.regex_Md_links: dict() = {
-            'ASSOCIATE_OF': ['associate', 'of'],
-            'CHILDHOOD_FRIEND': ['childhood', 'friend', 'of'],
-            'COLLEAGUE_OF': ['colleague', 'of'],
-            'COMMUNICATION': ['communication'],
-            'EMPLOYER_OF': ['employer', 'of'],
-            'FRIEND_OF': ['friend', 'of'],
-            'HOUSEMATE_OF': ['housemate', 'of'],
-            'MEETING': ['meeting'],
-            'SOCIAL_CONTACT': ['social', 'media', 'contact'],
-            'SHARED_PLOT': ['shared', 'plot'],
-            'TRAVEL': ['travel']
-        }
-        self.regex_kin_links: dict() = {
-            'COUSIN_OF': ['cousin', 'of'],
-            'INLAW_OF': ['in', '-', 'law', 'of'],
-            'KIN_OF': ['kin', 'of'],
-            'PARENT_OF': ['parent', 'of'],
-            'SIBILING_OF': ['sibiling', 'of'],
-            'SPOUSE_OF': ['spouse', 'of'],
-            'UNCLE_AUNT_OF': ['uncle', 'aunt', 'of']
+        self.in_file_data: list(dict()) = list(dict())
+        self.out_file_data: list(dict()) = list(dict())
+        self.regex_links: dict() = {
+            'regex_1d_links': {
+                'COORDINATOR_OF': ['coordinator'],
+                'FINANCIAL/LOGISITC_SUPPORTOR_OF': ['financial', '/', 'logistical', 'supporter'],
+                'LEADER_OF': ['leader'],
+                'RECRUITER_OF/SPONSOR_OF': ['recruiter', 'sponsor'],
+                'SOCIAL_MEDIA_FOLLOWER': ['social media follower'],
+                'SPIRITUAL_LEADER_OF': ['spiritual'],
+                'TEACHER_OF': ['teacher'],
+                'TRANSACTION': ['transaction'],
+                'VISITOR_OF': ['visitor', 'visitors']
+            },
+            'regex_Md_links': {
+                'ASSOCIATE_OF': ['associate'],
+                'CHILDHOOD_FRIEND_OF': ['childhood'],
+                'COLLEAGUE_OF': ['colleague'],
+                'COMMUNICATION': ['communication'],
+                'EMPLOYER_OF': ['employer'],
+                'FRIEND_OF': ['friend'],
+                'HOUSEMATE_OF': ['housemate'],
+                'MEETING': ['meeting'],
+                'SOCIAL_MEDIA_CONTACT': ['social media contact'],
+                'SHARED_PLOT': ['shared', 'plot'],
+                'TRAVEL': ['travel']
+            },
+            'regex_kin_links': {
+                'COUSIN_OF': ['cousin'],
+                'IN-LAW_OF': ['in', '-', 'law'],
+                'KIN_OF': ['kin'],
+                'PARENT_OF': ['parent'],
+                'SIBILING_OF': ['sibiling'],
+                'SPOUSE_OF': ['spouse'],
+                'UNCLE_OF/AUNT_OF': ['uncle', 'aunt']
+            }
         }
     
     def load_dataframe(self) -> None:
         ''' method to load the csv file into a dataframe. '''
-        with open(self.file_path, 'r', encoding='UTF-8') as csv_file:
-            temp_file_data = pd.read_csv(csv_file)
-        self.file_data = temp_file_data
+        # collect cleaned json data from raw csv
+        with open(self.in_file_path, 'r', encoding='UTF-8') as csv_file:
+            csv_reader = csv.DictReader(csv_file)
+            for rows in csv_reader:
+                self.in_file_data.append({
+                    'person1_legacy_id': rows['Person 1 Legacy ID'],
+                    'person2_legacy_id': rows['Person 2 Legacy ID'],
+                    'person1_id': rows['person1_id'],
+                    'person2_id': rows['person2_id'],
+                    'old_link': rows['link_type'],
+                    'RA': rows['RA'],
+                    'new_link': rows['Link Type'],
+                    'comments': rows['Comments']
+                })
+        # write to json
+        with open(self.in_json_path, 'w') as json_file:
+            json_file.write(json.dumps(self.in_file_data, indent=4))
         
-    def parse_linkage(self) -> None:
+    def parse_linkages(self) -> None:
         ''' method to process each linkage in the csv table from raw english. '''
-        for line in self.file_data:
-            if line["Link Type"]:
-                # go through each linkage and see if the regex is there collectively
-                # * might have to see results of ^ and then decide if I need to look for individually
-                
-                # if it has a link type ...
-                pass
+        with open(self.in_json_path, 'r', encoding='UTF-8') as file:
+            json_object = json.load(file)
+            for association in json_object:
+                    res = {'person1_legacy_id': association['person1_legacy_id'],
+                           'person2_legacy_id': association['person2_legacy_id'],
+                           'person1_id': association['person1_id'],
+                           'person2_id': association['person2_id'],
+                           'link_s': list()}
+                    if association["new_link"]:
+                        new_link_s = association["new_link"].split(';')                             # separate each link in human annotation
+                        for link_str in new_link_s:                                                 # for each link in one to potentially many links
+                            for regex_link_group in self.regex_links:                               # for each set of links
+                                for regex_link_type in self.regex_links[regex_link_group]:          # for each link in a set of links
+                                    if all(token in link_str.lower() for token in self.regex_links[regex_link_group][regex_link_type]):  
+                                        res['link_s'].append(regex_link_type)
+                    if not res['link_s']:
+                        res['link_s'].append('ASSOCIATE_OF') 
+                    self.out_file_data.append(res)
         
-
+    def write_out(self) -> None:
+        ''' method to write processed csv to a new json file and new csv file. '''
+        # write to json
+        with open(self.out_json_path, 'w') as json_file:
+            json_file.write(json.dumps(self.out_file_data, indent=4))
+        
+        # TODO
+        # write to csv file
+  
+      
 def main() -> None:
-    # user_io_file = input(f"\nEnter a file path > ")           # for user input
-    user_io_file = "data/Associates_2.0.csv"                    # for file
+    # user_io_file = input(f"\nEnter a file path > ")                                           # for user input
+    user_io_file = "data/in_associates_2.0.csv"                                                 # for file
     user_file = File(file_path=user_io_file)
     user_file.load_dataframe()
-    
+    user_file.parse_linkages()
+    user_file.write_out()
     
 if __name__ == '__main__':
     main()
