@@ -25,15 +25,16 @@ class File:
         self.in_file_path: str = file_path
         self.in_json_path: str = 'data/in_associates_2.0.json'
         self.out_json_path: str = 'data/out_associates_2.0.json'
+        self.out_csv_path: str = 'data/out_associates_2.0.csv'
         
         self.in_file_data: list(dict()) = list(dict())
         self.out_file_data: list(dict()) = list(dict())
         self.regex_links: dict() = {
             'regex_1d_links': {
-                'COORDINATOR_OF': ['coordinator'],
-                'FINANCIAL/LOGISITC_SUPPORTOR_OF': ['financial', '/', 'logistical', 'supporter'],
+                'COORDINATOR_OF': ['coordinat'],
+                'FINANCIAL/LOGISITC_SUPPORTOR_OF': ['financial', 'logistic'],
                 'LEADER_OF': ['leader'],
-                'RECRUITER_OF/SPONSOR_OF': ['recruiter', 'sponsor'],
+                'RECRUITER_OF/SPONSOR_OF': ['recruiter'],
                 'SOCIAL_MEDIA_FOLLOWER': ['social media follower'],
                 'SPIRITUAL_LEADER_OF': ['spiritual'],
                 'TEACHER_OF': ['teacher'],
@@ -45,7 +46,7 @@ class File:
                 'CHILDHOOD_FRIEND_OF': ['childhood'],
                 'COLLEAGUE_OF': ['colleague'],
                 'COMMUNICATION': ['communication'],
-                'EMPLOYER_OF': ['employer'],
+                'EMPLOYER_OF': ['employ'],
                 'FRIEND_OF': ['friend'],
                 'HOUSEMATE_OF': ['housemate'],
                 'MEETING': ['meeting'],
@@ -55,7 +56,7 @@ class File:
             },
             'regex_kin_links': {
                 'COUSIN_OF': ['cousin'],
-                'IN-LAW_OF': ['in', '-', 'law'],
+                'IN-LAW_OF': ['in-law'],
                 'KIN_OF': ['kin'],
                 'PARENT_OF': ['parent'],
                 'SIBILING_OF': ['sibiling'],
@@ -99,7 +100,7 @@ class File:
                         for link_str in new_link_s:                                                 # for each link in one to potentially many links
                             for regex_link_group in self.regex_links:                               # for each set of links
                                 for regex_link_type in self.regex_links[regex_link_group]:          # for each link in a set of links
-                                    if all(token in link_str.lower() for token in self.regex_links[regex_link_group][regex_link_type]):  
+                                    if any(token in link_str.lower() for token in self.regex_links[regex_link_group][regex_link_type]):  
                                         res['link_s'].append(regex_link_type)
                     if not res['link_s']:
                         res['link_s'].append('ASSOCIATE_OF') 
@@ -110,9 +111,13 @@ class File:
         # write to json
         with open(self.out_json_path, 'w') as json_file:
             json_file.write(json.dumps(self.out_file_data, indent=4))
-        
-        # TODO
-        # write to csv file
+            
+        # for some reason, this writes to csvs and makes lists with multiple items in them raw strs?
+        keys = self.out_file_data[0].keys()
+        with open(self.out_csv_path, 'w', newline='') as output_file:
+            dict_writer = csv.DictWriter(output_file, keys)
+            dict_writer.writeheader()
+            dict_writer.writerows(self.out_file_data)
   
       
 def main() -> None:
