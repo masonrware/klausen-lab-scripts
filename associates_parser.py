@@ -93,8 +93,10 @@ class File:
             json_object = json.load(file)
             for association in json_object:
                     res = {'link_s': str(),
-                           'person1_legacy_id': association['person1_legacy_id'],
-                           'person2_legacy_id': association['person2_legacy_id'],
+                           'person1_id': association['person1_id'],
+                           'person2_id': association['person2_id']
+                        #    'person1_legacy_id': association['person1_legacy_id'],
+                        #    'person2_legacy_id': association['person2_legacy_id'],
                            }
                     if association["new_link"]:
                         new_link_s = association["new_link"].split(';')                             # separate each link in human annotation
@@ -115,16 +117,16 @@ class File:
                 for i in range(len(links)-1):
                     res = {'id': j,
                            'link_s': links[i],
-                           'person1_legacy_id': dict['person1_legacy_id'],
-                            'person2_legacy_id': dict['person2_legacy_id']
+                           'person1_id': dict['person1_id'],
+                           'person2_id': dict['person2_id']
                             }
                     j+=1
                     self.out_file_data.append(res)
             else:
                 res = {'id': j,
                        'link_s': links[0],
-                       'person1_legacy_id': dict['person1_legacy_id'],
-                        'person2_legacy_id': dict['person2_legacy_id']
+                       'person1_id': dict['person1_id'],
+                           'person2_id': dict['person2_id']
                         }
                 j+=1
                 self.out_file_data.append(res)
