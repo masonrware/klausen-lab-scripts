@@ -34,7 +34,7 @@ class File:
         self.regex_links: dict() = {
             'regex_1d_links': {
                 'COORDINATOR OF': ['coordinat'],
-                'FINANCIAL/LOGISTIC SUPPORTER OF': ['financial', 'logistic'],
+                'FINANCIAL/LOGISTICAL SUPPORTER OF': ['financial', 'logistic'],
                 'LEADER OF': ['leader'],
                 'RECRUITER OF': ['recruiter'],
                 'SOCIAL MEDIA FOLLOWER': ['social media follower'],
