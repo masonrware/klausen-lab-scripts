@@ -1333,7 +1333,7 @@
     },
     {
         "id": 222,
-        "link_s": "UNCLE/AUNT OF",
+        "link_s": "AUNT/UNCLE OF",
         "person1_id": "5584",
         "person2_id": "5140"
     },
@@ -1363,7 +1363,7 @@
     },
     {
         "id": 227,
-        "link_s": "UNCLE/AUNT OF",
+        "link_s": "AUNT/UNCLE OF",
         "person1_id": "5955",
         "person2_id": "5140"
     },
