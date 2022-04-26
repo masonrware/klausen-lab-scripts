@@ -28,6 +28,7 @@ class File:
         self.out_csv_path: str = 'data/out_associates_2.0.csv'
         
         self.in_file_data: list(dict()) = list(dict())
+        self.out_file_data_temp: list(dict()) = list(dict())
         self.out_file_data: list(dict()) = list(dict())
         self.regex_links: dict() = {
             'regex_1d_links': {
@@ -94,17 +95,37 @@ class File:
                            'person2_legacy_id': association['person2_legacy_id'],
                            'person1_id': association['person1_id'],
                            'person2_id': association['person2_id'],
-                           'link_s': list()}
+                           'link_s': str()}
                     if association["new_link"]:
                         new_link_s = association["new_link"].split(';')                             # separate each link in human annotation
                         for link_str in new_link_s:                                                 # for each link in one to potentially many links
                             for regex_link_group in self.regex_links:                               # for each set of links
                                 for regex_link_type in self.regex_links[regex_link_group]:          # for each link in a set of links
                                     if any(token in link_str.lower() for token in self.regex_links[regex_link_group][regex_link_type]):  
-                                        res['link_s'].append(regex_link_type)
+                                        res['link_s'] += regex_link_type + ' '
                     if not res['link_s']:
-                        res['link_s'].append('ASSOCIATE_OF') 
+                        res['link_s'] += 'ASSOCIATE_OF'
+                    self.out_file_data_temp.append(res)
+    
+    def clean_output(self) -> None:
+        for dict in self.out_file_data_temp:
+            links = dict['link_s'].split(' ')
+            if len(links) > 1:
+                for i in range(len(links)-1):
+                    res = {'person1_legacy_id': dict['person1_legacy_id'],
+                    'person2_legacy_id': dict['person2_legacy_id'],
+                    'person1_id': dict['person1_id'],
+                    'person2_id': dict['person2_id'],
+                    'link_s': links[i]}
                     self.out_file_data.append(res)
+            else:
+                res = {'person1_legacy_id': dict['person1_legacy_id'],
+                    'person2_legacy_id': dict['person2_legacy_id'],
+                    'person1_id': dict['person1_id'],
+                    'person2_id': dict['person2_id'],
+                    'link_s': links[0]}
+                self.out_file_data.append(res)
+                
         
     def write_out(self) -> None:
         ''' method to write processed csv to a new json file and new csv file. '''
@@ -113,6 +134,7 @@ class File:
             json_file.write(json.dumps(self.out_file_data, indent=4))
             
         # for some reason, this writes to csvs and makes lists with multiple items in them raw strs?
+        # print(self.out_file_data)
         keys = self.out_file_data[0].keys()
         with open(self.out_csv_path, 'w', newline='') as output_file:
             dict_writer = csv.DictWriter(output_file, keys)
@@ -126,6 +148,7 @@ def main() -> None:
     user_file = File(file_path=user_io_file)
     user_file.load_dataframe()
     user_file.parse_linkages()
+    user_file.clean_output()
     user_file.write_out()
     
 if __name__ == '__main__':
