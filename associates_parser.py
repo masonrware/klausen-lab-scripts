@@ -108,20 +108,25 @@ class File:
                     self.out_file_data_temp.append(res)
     
     def clean_output(self) -> None:
+        j = 0
         for dict in self.out_file_data_temp:
             links = dict['link_s'].split(' ')
             if len(links) > 1:
                 for i in range(len(links)-1):
-                    res = {'link_s': links[i],
+                    res = {'id': j,
+                           'link_s': links[i],
                            'person1_legacy_id': dict['person1_legacy_id'],
                             'person2_legacy_id': dict['person2_legacy_id']
                             }
+                    j+=1
                     self.out_file_data.append(res)
             else:
-                res = {'link_s': links[0],
+                res = {'id': j,
+                       'link_s': links[0],
                        'person1_legacy_id': dict['person1_legacy_id'],
                         'person2_legacy_id': dict['person2_legacy_id']
                         }
+                j+=1
                 self.out_file_data.append(res)
                 
         
