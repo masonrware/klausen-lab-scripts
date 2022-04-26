@@ -33,37 +33,37 @@ class File:
         self.out_file_data: list(dict()) = list(dict())
         self.regex_links: dict() = {
             'regex_1d_links': {
-                'COORDINATOR_OF': ['coordinat'],
-                'FINANCIAL/LOGISITC_SUPPORTOR_OF': ['financial', 'logistic'],
-                'LEADER_OF': ['leader'],
-                'RECRUITER_OF/SPONSOR_OF': ['recruiter'],
-                'SOCIAL_MEDIA_FOLLOWER': ['social media follower'],
-                'SPIRITUAL_LEADER_OF': ['spiritual'],
-                'TEACHER_OF': ['teacher'],
+                'COORDINATOR OF': ['coordinat'],
+                'FINANCIAL/LOGISITC SUPPORTOR OF': ['financial', 'logistic'],
+                'LEADER OF': ['leader'],
+                'RECRUITER OF': ['recruiter'],
+                'SOCIAL MEDIA FOLLOWER': ['social media follower'],
+                'SPIRITUAL LEADER OF': ['spiritual'],
+                'TEACHER OF': ['teacher'],
                 'TRANSACTION': ['transaction'],
-                'VISITOR_OF': ['visitor', 'visitors']
+                'VISITOR OF': ['visitor', 'visitors']
             },
             'regex_Md_links': {
-                'ASSOCIATE_OF': ['associate'],
-                'CHILDHOOD_FRIEND_OF': ['childhood'],
-                'COLLEAGUE_OF': ['colleague'],
+                'ASSOCIATE OF': ['associate'],
+                'CHILDHOOD FRIEND OF': ['childhood'],
+                'COLLEAGUE OF': ['colleague'],
                 'COMMUNICATION': ['communication'],
-                'EMPLOYER_OF': ['employ'],
-                'FRIEND_OF': ['friend'],
-                'HOUSEMATE_OF': ['housemate'],
+                'EMPLOYER OF': ['employ'],
+                'FRIEND OF': ['friend'],
+                'HOUSEMATE OF': ['housemate'],
                 'MEETING': ['meeting'],
-                'SOCIAL_MEDIA_CONTACT': ['social media contact'],
-                'SHARED_PLOT': ['shared', 'plot'],
+                'SOCIAL MEDIA CONTACT': ['social media contact'],
+                'SHARED PLOT': ['shared', 'plot'],
                 'TRAVEL': ['travel']
             },
             'regex_kin_links': {
-                'COUSIN_OF': ['cousin'],
-                'IN-LAW_OF': ['in-law'],
-                'KIN_OF': ['kin'],
-                'PARENT_OF': ['parent'],
-                'SIBILING_OF': ['sibiling'],
-                'SPOUSE_OF': ['spouse'],
-                'UNCLE_OF/AUNT_OF': ['uncle', 'aunt']
+                'COUSIN OF': ['cousin'],
+                'IN-LAW OF': ['in-law'],
+                'KIN OF': ['kin'],
+                'PARENT OF': ['parent'],
+                'SIBILING OF': ['sibiling'],
+                'SPOUSE OF': ['spouse'],
+                'UNCLE/AUNT OF': ['uncle', 'aunt']
             }
         }
     
@@ -102,15 +102,15 @@ class File:
                             for regex_link_group in self.regex_links:                               # for each set of links
                                 for regex_link_type in self.regex_links[regex_link_group]:          # for each link in a set of links
                                     if any(token in link_str.lower() for token in self.regex_links[regex_link_group][regex_link_type]):  
-                                        res['link_s'] += regex_link_type + ' '
+                                        res['link_s'] += regex_link_type + ';'
                     if not res['link_s']:
-                        res['link_s'] += 'ASSOCIATE_OF'
+                        res['link_s'] += 'ASSOCIATE OF'
                     self.out_file_data_temp.append(res)
     
     def clean_output(self) -> None:
         j = 0
         for dict in self.out_file_data_temp:
-            links = dict['link_s'].split(' ')
+            links = dict['link_s'].split(';')
             if len(links) > 1:
                 for i in range(len(links)-1):
                     res = {'id': j,
