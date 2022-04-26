@@ -63,7 +63,7 @@ class File:
                 'PARENT OF': ['parent'],
                 'SIBILING OF': ['sibiling'],
                 'SPOUSE OF': ['spouse'],
-                'UNCLE/AUNT OF': ['uncle', 'aunt']
+                'AUNT/UNCLE OF': ['uncle', 'aunt']
             }
         }
     
