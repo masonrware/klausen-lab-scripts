@@ -7,10 +7,11 @@
 # Western Jihadism Project; Brandeis University
 # Written By: Mason Ware
 
-## This is a python module to process and identify attributes of a csv file of associations
-## to be entered into the laboratory database. It is understood that the new linkages are entered
-## by respective encoders and not to a template exactly - hence the need for this module in place
-## of simply using regex or egrep.
+
+''' This is a python module to process and identify attributes of a csv file of associations
+to be entered into the laboratory database. It is understood that the new linkages are entered
+by respective encoders and not to a template exactly - hence the need for this module in place
+of simply using regex or egrep. '''
 
 
 import os
@@ -91,11 +92,10 @@ class File:
         with open(self.in_json_path, 'r', encoding='UTF-8') as file:
             json_object = json.load(file)
             for association in json_object:
-                    res = {'person1_legacy_id': association['person1_legacy_id'],
+                    res = {'link_s': str(),
+                           'person1_legacy_id': association['person1_legacy_id'],
                            'person2_legacy_id': association['person2_legacy_id'],
-                           'person1_id': association['person1_id'],
-                           'person2_id': association['person2_id'],
-                           'link_s': str()}
+                           }
                     if association["new_link"]:
                         new_link_s = association["new_link"].split(';')                             # separate each link in human annotation
                         for link_str in new_link_s:                                                 # for each link in one to potentially many links
@@ -112,18 +112,16 @@ class File:
             links = dict['link_s'].split(' ')
             if len(links) > 1:
                 for i in range(len(links)-1):
-                    res = {'person1_legacy_id': dict['person1_legacy_id'],
-                    'person2_legacy_id': dict['person2_legacy_id'],
-                    'person1_id': dict['person1_id'],
-                    'person2_id': dict['person2_id'],
-                    'link_s': links[i]}
+                    res = {'link_s': links[i],
+                           'person1_legacy_id': dict['person1_legacy_id'],
+                            'person2_legacy_id': dict['person2_legacy_id']
+                            }
                     self.out_file_data.append(res)
             else:
-                res = {'person1_legacy_id': dict['person1_legacy_id'],
-                    'person2_legacy_id': dict['person2_legacy_id'],
-                    'person1_id': dict['person1_id'],
-                    'person2_id': dict['person2_id'],
-                    'link_s': links[0]}
+                res = {'link_s': links[0],
+                       'person1_legacy_id': dict['person1_legacy_id'],
+                        'person2_legacy_id': dict['person2_legacy_id']
+                        }
                 self.out_file_data.append(res)
                 
         

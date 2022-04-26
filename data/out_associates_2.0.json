@@ -1,1801 +1,1287 @@
 [
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "BEL122",
-        "person2_legacy_id": "BEL465",
-        "person1_id": "190",
-        "person2_id": "4696",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL465"
     },
     {
+        "link_s": "LEADER_OF",
         "person1_legacy_id": "BEL122",
-        "person2_legacy_id": "BEL273",
-        "person1_id": "190",
-        "person2_id": "4710",
-        "link_s": "LEADER_OF"
+        "person2_legacy_id": "BEL273"
     },
     {
+        "link_s": "SPIRITUAL_LEADER_OF",
         "person1_legacy_id": "BEL122",
-        "person2_legacy_id": "BEL273",
-        "person1_id": "190",
-        "person2_id": "4710",
-        "link_s": "SPIRITUAL_LEADER_OF"
+        "person2_legacy_id": "BEL273"
     },
     {
+        "link_s": "LEADER_OF",
         "person1_legacy_id": "BEL122",
-        "person2_legacy_id": "BEL299",
-        "person1_id": "190",
-        "person2_id": "4750",
-        "link_s": "LEADER_OF"
+        "person2_legacy_id": "BEL299"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "BEL167",
-        "person2_legacy_id": "FR159",
-        "person1_id": "238",
-        "person2_id": "750",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "FR159"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "FR831",
-        "person1_id": "270",
-        "person2_id": "5013",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "FR831"
     },
     {
+        "link_s": "COMMUNICATION",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "FR813",
-        "person1_id": "270",
-        "person2_id": "4774",
-        "link_s": "COMMUNICATION"
+        "person2_legacy_id": "FR813"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "FR816",
-        "person1_id": "270",
-        "person2_id": "4782",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "FR816"
     },
     {
+        "link_s": "COMMUNICATION",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "AU44",
-        "person1_id": "270",
-        "person2_id": "5112",
-        "link_s": "COMMUNICATION"
+        "person2_legacy_id": "AU44"
     },
     {
+        "link_s": "MEETING",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "FR876",
-        "person1_id": "270",
-        "person2_id": "5341",
-        "link_s": "MEETING"
+        "person2_legacy_id": "FR876"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "GER287",
-        "person1_id": "270",
-        "person2_id": "1623",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "GER287"
     },
     {
+        "link_s": "HOUSEMATE_OF",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "GER282",
-        "person1_id": "270",
-        "person2_id": "1618",
-        "link_s": "HOUSEMATE_OF"
+        "person2_legacy_id": "GER282"
     },
     {
+        "link_s": "LEADER_OF",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "BEL122",
-        "person1_id": "270",
-        "person2_id": "190",
-        "link_s": "LEADER_OF"
+        "person2_legacy_id": "BEL122"
     },
     {
+        "link_s": "SPIRITUAL_LEADER_OF",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "BEL122",
-        "person1_id": "270",
-        "person2_id": "190",
-        "link_s": "SPIRITUAL_LEADER_OF"
+        "person2_legacy_id": "BEL122"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "BEL281",
-        "person1_id": "270",
-        "person2_id": "4718",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL281"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "BEL181",
-        "person1_id": "270",
-        "person2_id": "254",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "BEL181"
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "BEL308",
-        "person1_id": "270",
-        "person2_id": "4795",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "BEL308"
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "BEL307",
-        "person1_id": "270",
-        "person2_id": "4794",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "BEL307"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "BEL250",
-        "person1_id": "270",
-        "person2_id": "327",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "BEL250"
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "BEL348",
-        "person1_id": "270",
-        "person2_id": "5204",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL348"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "BEL343",
-        "person1_id": "270",
-        "person2_id": "5140",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "BEL343"
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "BEL100",
-        "person1_id": "270",
-        "person2_id": "174",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "BEL100"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "BEL198",
-        "person1_id": "270",
-        "person2_id": "271",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL198"
     },
     {
+        "link_s": "HOUSEMATE_OF",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "GER441",
-        "person1_id": "270",
-        "person2_id": "5496",
-        "link_s": "HOUSEMATE_OF"
+        "person2_legacy_id": "GER441"
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "GER441",
-        "person1_id": "270",
-        "person2_id": "5496",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "GER441"
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "FR853",
-        "person1_id": "270",
-        "person2_id": "5180",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "FR853"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "BEL197",
-        "person2_legacy_id": "BEL244",
-        "person1_id": "270",
-        "person2_id": "320",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "BEL244"
     },
     {
+        "link_s": "COLLEAGUE_OF",
         "person1_legacy_id": "BEL198",
-        "person2_legacy_id": "BEL197",
-        "person1_id": "271",
-        "person2_id": "270",
-        "link_s": "COLLEAGUE_OF"
+        "person2_legacy_id": "BEL197"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "BEL246",
-        "person2_legacy_id": "BEL248",
-        "person1_id": "322",
-        "person2_id": "324",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL248"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL246",
-        "person2_legacy_id": "BEL248",
-        "person1_id": "322",
-        "person2_id": "324",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL248"
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "BEL246",
-        "person2_legacy_id": "LUX11",
-        "person1_id": "322",
-        "person2_id": "2312",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "LUX11"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL246",
-        "person2_legacy_id": "BEL453",
-        "person1_id": "322",
-        "person2_id": "6461",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL453"
     },
     {
+        "link_s": "MEETING",
         "person1_legacy_id": "BEL246",
-        "person2_legacy_id": "FR846",
-        "person1_id": "322",
-        "person2_id": "5090",
-        "link_s": "MEETING"
+        "person2_legacy_id": "FR846"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "BEL247",
-        "person2_legacy_id": "BEL246",
-        "person1_id": "323",
-        "person2_id": "322",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL246"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL247",
-        "person2_legacy_id": "BEL246",
-        "person1_id": "323",
-        "person2_id": "322",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL246"
     },
     {
+        "link_s": "RECRUITER_OF/SPONSOR_OF",
         "person1_legacy_id": "FR219",
-        "person2_legacy_id": "FR243",
-        "person1_id": "804",
-        "person2_id": "829",
-        "link_s": "RECRUITER_OF/SPONSOR_OF"
+        "person2_legacy_id": "FR243"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "FR242",
-        "person2_legacy_id": "BEL307",
-        "person1_id": "828",
-        "person2_id": "4794",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "BEL307"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "FR242",
-        "person2_legacy_id": "FR783",
-        "person1_id": "828",
-        "person2_id": "1399",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR783"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "FR242",
-        "person2_legacy_id": "BEL374",
-        "person1_id": "828",
-        "person2_id": "5343",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL374"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "FR594",
-        "person2_legacy_id": "BEL167",
-        "person1_id": "1200",
-        "person2_id": "238",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL167"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "FR620",
-        "person2_legacy_id": "FR801",
-        "person1_id": "1230",
-        "person2_id": "4755",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR801"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "FR644",
-        "person2_legacy_id": "FR694",
-        "person1_id": "1256",
-        "person2_id": "1308",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "FR694"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "FR657",
-        "person2_legacy_id": "FR694",
-        "person1_id": "1270",
-        "person2_id": "1308",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR694"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "FR688",
-        "person2_legacy_id": "FR801",
-        "person1_id": "1301",
-        "person2_id": "4755",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "FR801"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "FR689",
-        "person2_legacy_id": "FR801",
-        "person1_id": "1302",
-        "person2_id": "4755",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR801"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "FR694",
-        "person2_legacy_id": "FR867",
-        "person1_id": "1308",
-        "person2_id": "5243",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "FR867"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "FR694",
-        "person2_legacy_id": "FR869",
-        "person1_id": "1308",
-        "person2_id": "5246",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "FR869"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "FR694",
-        "person2_legacy_id": "FR866",
-        "person1_id": "1308",
-        "person2_id": "5242",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "FR866"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "FR711",
-        "person2_legacy_id": "FR712",
-        "person1_id": "1321",
-        "person2_id": "1322",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR712"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "FR713",
-        "person2_legacy_id": "FR711",
-        "person1_id": "1323",
-        "person2_id": "1321",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR711"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "FR751",
-        "person2_legacy_id": "FR846",
-        "person1_id": "1365",
-        "person2_id": "5090",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "FR846"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "FR752",
-        "person2_legacy_id": "BEL343",
-        "person1_id": "1366",
-        "person2_id": "5140",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL343"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "FR752",
-        "person2_legacy_id": "AU41",
-        "person1_id": "1366",
-        "person2_id": "5109",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "AU41"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "FR752",
-        "person2_legacy_id": "INT278",
-        "person1_id": "1366",
-        "person2_id": "4757",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "INT278"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "FR752",
-        "person2_legacy_id": "INT279",
-        "person1_id": "1366",
-        "person2_id": "4758",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "INT279"
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "FR752",
-        "person2_legacy_id": "BEL326",
-        "person1_id": "1366",
-        "person2_id": "4985",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "BEL326"
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "FR752",
-        "person2_legacy_id": "BEL325",
-        "person1_id": "1366",
-        "person2_id": "4984",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "BEL325"
     },
     {
+        "link_s": "TRAVEL",
         "person1_legacy_id": "FR752",
-        "person2_legacy_id": "BEL310",
-        "person1_id": "1366",
-        "person2_id": "4798",
-        "link_s": "TRAVEL"
+        "person2_legacy_id": "BEL310"
     },
     {
+        "link_s": "COLLEAGUE_OF",
         "person1_legacy_id": "FR752",
-        "person2_legacy_id": "BEL331",
-        "person1_id": "1366",
-        "person2_id": "5007",
-        "link_s": "COLLEAGUE_OF"
+        "person2_legacy_id": "BEL331"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "FR752",
-        "person2_legacy_id": "BEL329",
-        "person1_id": "1366",
-        "person2_id": "5005",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL329"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "FR752",
-        "person2_legacy_id": "BEL339",
-        "person1_id": "1366",
-        "person2_id": "5131",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL339"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "FR752",
-        "person2_legacy_id": "BEL340",
-        "person1_id": "1366",
-        "person2_id": "5133",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL340"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "FR752",
-        "person2_legacy_id": "BEL342",
-        "person1_id": "1366",
-        "person2_id": "5139",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL342"
     },
     {
+        "link_s": "RECRUITER_OF/SPONSOR_OF",
         "person1_legacy_id": "FR783",
-        "person2_legacy_id": "BEL197",
-        "person1_id": "1399",
-        "person2_id": "270",
-        "link_s": "RECRUITER_OF/SPONSOR_OF"
+        "person2_legacy_id": "BEL197"
     },
     {
+        "link_s": "LEADER_OF",
         "person1_legacy_id": "FR783",
-        "person2_legacy_id": "BEL197",
-        "person1_id": "1399",
-        "person2_id": "270",
-        "link_s": "LEADER_OF"
+        "person2_legacy_id": "BEL197"
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "SWE116",
-        "person2_legacy_id": "BEL465",
-        "person1_id": "2980",
-        "person2_id": "4696",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL465"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "SWE116",
-        "person2_legacy_id": "BEL309",
-        "person1_id": "2980",
-        "person2_id": "4797",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL309"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "SWE116",
-        "person2_legacy_id": "SWE111",
-        "person1_id": "2980",
-        "person2_id": "2976",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "SWE111"
     },
     {
+        "link_s": "COMMUNICATION",
         "person1_legacy_id": "SWE116",
-        "person2_legacy_id": "BEL310 ",
-        "person1_id": "2980",
-        "person2_id": "4798",
-        "link_s": "COMMUNICATION"
+        "person2_legacy_id": "BEL310 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "UK522",
-        "person2_legacy_id": "FR694",
-        "person1_id": "3546",
-        "person2_id": "1308",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR694"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "UK784",
-        "person2_legacy_id": "FR694 ",
-        "person1_id": "3816",
-        "person2_id": "1308",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR694 "
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "BEL465",
-        "person2_legacy_id": "BEL346 ",
-        "person1_id": "4696",
-        "person2_id": "5202",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "BEL346 "
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL465",
-        "person2_legacy_id": "BEL346 ",
-        "person1_id": "4696",
-        "person2_id": "5202",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL346 "
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "BEL465",
-        "person2_legacy_id": "BEL346 ",
-        "person1_id": "4696",
-        "person2_id": "5202",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "BEL346 "
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "BEL465",
-        "person2_legacy_id": "BEL309 ",
-        "person1_id": "4696",
-        "person2_id": "4797",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "BEL309 "
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL465",
-        "person2_legacy_id": "BEL309 ",
-        "person1_id": "4696",
-        "person2_id": "4797",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL309 "
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "BEL267",
-        "person2_legacy_id": "BEL197",
-        "person1_id": "4697",
-        "person2_id": "270",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "BEL197"
     },
     {
+        "link_s": "COMMUNICATION",
         "person1_legacy_id": "BEL267",
-        "person2_legacy_id": "BEL197",
-        "person1_id": "4697",
-        "person2_id": "270",
-        "link_s": "COMMUNICATION"
+        "person2_legacy_id": "BEL197"
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL273",
-        "person2_legacy_id": "FR797 ",
-        "person1_id": "4710",
-        "person2_id": "4721",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "FR797 "
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "BEL273",
-        "person2_legacy_id": "FR242 ",
-        "person1_id": "4710",
-        "person2_id": "828",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "FR242 "
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "BEL293",
-        "person2_legacy_id": "FR792 ",
-        "person1_id": "4732",
-        "person2_id": "4698",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "FR792 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL293",
-        "person2_legacy_id": "FR799 ",
-        "person1_id": "4732",
-        "person2_id": "4748",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR799 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL293",
-        "person2_legacy_id": "FR801 ",
-        "person1_id": "4732",
-        "person2_id": "4755",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR801 "
     },
     {
+        "link_s": "COMMUNICATION",
         "person1_legacy_id": "BEL293",
-        "person2_legacy_id": "BEL273 ",
-        "person1_id": "4732",
-        "person2_id": "4710",
-        "link_s": "COMMUNICATION"
+        "person2_legacy_id": "BEL273 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL293",
-        "person2_legacy_id": "BEL197 ",
-        "person1_id": "4732",
-        "person2_id": "270",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL197 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "FR799",
-        "person2_legacy_id": "BEL273 ",
-        "person1_id": "4748",
-        "person2_id": "4710",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL273 "
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "FR799",
-        "person2_legacy_id": "FR242 ",
-        "person1_id": "4748",
-        "person2_id": "828",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "FR242 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "FR799",
-        "person2_legacy_id": "FR797",
-        "person1_id": "4748",
-        "person2_id": "4721",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR797"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "FR799",
-        "person2_legacy_id": "BEL465 ",
-        "person1_id": "4748",
-        "person2_id": "4696",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL465 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "FR799",
-        "person2_legacy_id": "FR801 ",
-        "person1_id": "4748",
-        "person2_id": "4755",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR801 "
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "FR801",
-        "person2_legacy_id": "FR797 ",
-        "person1_id": "4755",
-        "person2_id": "4721",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "FR797 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "FR801",
-        "person2_legacy_id": "BEL465 ",
-        "person1_id": "4755",
-        "person2_id": "4696",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL465 "
     },
     {
+        "link_s": "TRAVEL",
         "person1_legacy_id": "FR801",
-        "person2_legacy_id": "FR852 ",
-        "person1_id": "4755",
-        "person2_id": "5174",
-        "link_s": "TRAVEL"
+        "person2_legacy_id": "FR852 "
     },
     {
+        "link_s": "TRAVEL",
         "person1_legacy_id": "FR801",
-        "person2_legacy_id": "FR851 ",
-        "person1_id": "4755",
-        "person2_id": "5172",
-        "link_s": "TRAVEL"
+        "person2_legacy_id": "FR851 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "INT278",
-        "person2_legacy_id": "FR799 ",
-        "person1_id": "4757",
-        "person2_id": "4748",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR799 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "INT278",
-        "person2_legacy_id": "BEL273 ",
-        "person1_id": "4757",
-        "person2_id": "4710",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL273 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "INT278",
-        "person2_legacy_id": "FR792 ",
-        "person1_id": "4757",
-        "person2_id": "4698",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR792 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "INT279",
-        "person2_legacy_id": "FR801 ",
-        "person1_id": "4758",
-        "person2_id": "4755",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR801 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "INT279",
-        "person2_legacy_id": "BEL273 ",
-        "person1_id": "4758",
-        "person2_id": "4710",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL273 "
     },
     {
+        "link_s": "RECRUITER_OF/SPONSOR_OF",
         "person1_legacy_id": "BEL301",
-        "person2_legacy_id": "BEL273 ",
-        "person1_id": "4771",
-        "person2_id": "4710",
-        "link_s": "RECRUITER_OF/SPONSOR_OF"
+        "person2_legacy_id": "BEL273 "
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "FR816",
-        "person2_legacy_id": "FR583 ",
-        "person1_id": "4782",
-        "person2_id": "1189",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "FR583 "
     },
     {
+        "link_s": "IN-LAW_OF",
         "person1_legacy_id": "FR816",
-        "person2_legacy_id": "BEL307 ",
-        "person1_id": "4782",
-        "person2_id": "4794",
-        "link_s": "IN-LAW_OF"
+        "person2_legacy_id": "BEL307 "
     },
     {
+        "link_s": "RECRUITER_OF/SPONSOR_OF",
         "person1_legacy_id": "FR816",
-        "person2_legacy_id": "FR820 ",
-        "person1_id": "4782",
-        "person2_id": "4786",
-        "link_s": "RECRUITER_OF/SPONSOR_OF"
+        "person2_legacy_id": "FR820 "
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "FR816",
-        "person2_legacy_id": "BEL374 ",
-        "person1_id": "4782",
-        "person2_id": "5343",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "BEL374 "
     },
     {
+        "link_s": "RECRUITER_OF/SPONSOR_OF",
         "person1_legacy_id": "FR816",
-        "person2_legacy_id": "FR819 ",
-        "person1_id": "4782",
-        "person2_id": "4785",
-        "link_s": "RECRUITER_OF/SPONSOR_OF"
+        "person2_legacy_id": "FR819 "
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL306",
-        "person2_legacy_id": "FR797 ",
-        "person1_id": "4793",
-        "person2_id": "4721",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "FR797 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL306",
-        "person2_legacy_id": "FR801 ",
-        "person1_id": "4793",
-        "person2_id": "4755",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR801 "
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "BEL306",
-        "person2_legacy_id": "FR816 ",
-        "person1_id": "4793",
-        "person2_id": "4782",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "FR816 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL306",
-        "person2_legacy_id": "INT278 ",
-        "person1_id": "4793",
-        "person2_id": "4757",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "INT278 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL306",
-        "person2_legacy_id": "INT279 ",
-        "person1_id": "4793",
-        "person2_id": "4758",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "INT279 "
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL306",
-        "person2_legacy_id": "BEL293 ",
-        "person1_id": "4793",
-        "person2_id": "4732",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL293 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL306",
-        "person2_legacy_id": "FR799 ",
-        "person1_id": "4793",
-        "person2_id": "4748",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR799 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL306",
-        "person2_legacy_id": "FR242 ",
-        "person1_id": "4793",
-        "person2_id": "828",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR242 "
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "BEL307",
-        "person2_legacy_id": "BEL465 ",
-        "person1_id": "4794",
-        "person2_id": "4696",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "BEL465 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL307",
-        "person2_legacy_id": "BEL465 ",
-        "person1_id": "4794",
-        "person2_id": "4696",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL465 "
     },
     {
+        "link_s": "EMPLOYER_OF",
         "person1_legacy_id": "BEL307",
-        "person2_legacy_id": "BEL273",
-        "person1_id": "4794",
-        "person2_id": "4710",
-        "link_s": "EMPLOYER_OF"
+        "person2_legacy_id": "BEL273"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "BEL307",
-        "person2_legacy_id": "BEL273",
-        "person1_id": "4794",
-        "person2_id": "4710",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "BEL273"
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "BEL307",
-        "person2_legacy_id": "BEL273",
-        "person1_id": "4794",
-        "person2_id": "4710",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "BEL273"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL307",
-        "person2_legacy_id": "BEL273",
-        "person1_id": "4794",
-        "person2_id": "4710",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL273"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "BEL308",
-        "person2_legacy_id": "BEL273 ",
-        "person1_id": "4795",
-        "person2_id": "4710",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "BEL273 "
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL308",
-        "person2_legacy_id": "BEL273 ",
-        "person1_id": "4795",
-        "person2_id": "4710",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL273 "
     },
     {
+        "link_s": "EMPLOYER_OF",
         "person1_legacy_id": "BEL308",
-        "person2_legacy_id": "BEL273 ",
-        "person1_id": "4795",
-        "person2_id": "4710",
-        "link_s": "EMPLOYER_OF"
+        "person2_legacy_id": "BEL273 "
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "BEL308",
-        "person2_legacy_id": "BEL273 ",
-        "person1_id": "4795",
-        "person2_id": "4710",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "BEL273 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL308",
-        "person2_legacy_id": "BEL273 ",
-        "person1_id": "4795",
-        "person2_id": "4710",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL273 "
     },
     {
+        "link_s": "LEADER_OF",
         "person1_legacy_id": "BEL309",
-        "person2_legacy_id": "BEL310 ",
-        "person1_id": "4797",
-        "person2_id": "4798",
-        "link_s": "LEADER_OF"
+        "person2_legacy_id": "BEL310 "
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL309",
-        "person2_legacy_id": "BEL310 ",
-        "person1_id": "4797",
-        "person2_id": "4798",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL310 "
     },
     {
+        "link_s": "TRAVEL",
         "person1_legacy_id": "BEL309",
-        "person2_legacy_id": "BEL310 ",
-        "person1_id": "4797",
-        "person2_id": "4798",
-        "link_s": "TRAVEL"
+        "person2_legacy_id": "BEL310 "
     },
     {
+        "link_s": "LEADER_OF",
         "person1_legacy_id": "BEL309",
-        "person2_legacy_id": "FR797 ",
-        "person1_id": "4797",
-        "person2_id": "4721",
-        "link_s": "LEADER_OF"
+        "person2_legacy_id": "FR797 "
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL309",
-        "person2_legacy_id": "FR797 ",
-        "person1_id": "4797",
-        "person2_id": "4721",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "FR797 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL309",
-        "person2_legacy_id": "FR797 ",
-        "person1_id": "4797",
-        "person2_id": "4721",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR797 "
     },
     {
+        "link_s": "LEADER_OF",
         "person1_legacy_id": "BEL309",
-        "person2_legacy_id": "BEL376 ",
-        "person1_id": "4797",
-        "person2_id": "5015",
-        "link_s": "LEADER_OF"
+        "person2_legacy_id": "BEL376 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL309",
-        "person2_legacy_id": "BEL376 ",
-        "person1_id": "4797",
-        "person2_id": "5015",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL376 "
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "BEL310",
-        "person2_legacy_id": "FR657 ",
-        "person1_id": "4798",
-        "person2_id": "1270",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "FR657 "
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL310",
-        "person2_legacy_id": "IT394 ",
-        "person1_id": "4798",
-        "person2_id": "5279",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "IT394 "
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "BEL310",
-        "person2_legacy_id": "BEL367 ",
-        "person1_id": "4798",
-        "person2_id": "5291",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL367 "
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "BEL310",
-        "person2_legacy_id": "BEL368 ",
-        "person1_id": "4798",
-        "person2_id": "5292",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL368 "
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "BEL310",
-        "person2_legacy_id": "BEL369 ",
-        "person1_id": "4798",
-        "person2_id": "5319",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL369 "
     },
     {
+        "link_s": "COMMUNICATION",
         "person1_legacy_id": "BEL310",
-        "person2_legacy_id": "BEL309 ",
-        "person1_id": "4798",
-        "person2_id": "4797",
-        "link_s": "COMMUNICATION"
+        "person2_legacy_id": "BEL309 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL310",
-        "person2_legacy_id": "BEL309 ",
-        "person1_id": "4798",
-        "person2_id": "4797",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL309 "
     },
     {
+        "link_s": "TRAVEL",
         "person1_legacy_id": "BEL310",
-        "person2_legacy_id": "BEL309 ",
-        "person1_id": "4798",
-        "person2_id": "4797",
-        "link_s": "TRAVEL"
+        "person2_legacy_id": "BEL309 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL310",
-        "person2_legacy_id": "BEL326 ",
-        "person1_id": "4798",
-        "person2_id": "4985",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL326 "
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL310",
-        "person2_legacy_id": "BEL326 ",
-        "person1_id": "4798",
-        "person2_id": "4985",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL326 "
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL310",
-        "person2_legacy_id": "BEL449 ",
-        "person1_id": "4798",
-        "person2_id": "6092",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL449 "
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "BEL311",
-        "person2_legacy_id": "BEL306 ",
-        "person1_id": "4800",
-        "person2_id": "4793",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "BEL306 "
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "BEL322",
-        "person2_legacy_id": "BEL197 ",
-        "person1_id": "4842",
-        "person2_id": "270",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL197 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL325",
-        "person2_legacy_id": "BEL449 ",
-        "person1_id": "4984",
-        "person2_id": "6092",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL449 "
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "BEL325",
-        "person2_legacy_id": "BEL357 ",
-        "person1_id": "4984",
-        "person2_id": "5224",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL357 "
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "BEL325",
-        "person2_legacy_id": "BEL371 ",
-        "person1_id": "4984",
-        "person2_id": "5325",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "BEL371 "
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "BEL325",
-        "person2_legacy_id": "BEL465 ",
-        "person1_id": "4984",
-        "person2_id": "4696",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "BEL465 "
     },
     {
+        "link_s": "KIN_OF",
         "person1_legacy_id": "BEL325",
-        "person2_legacy_id": "BEL465 ",
-        "person1_id": "4984",
-        "person2_id": "4696",
-        "link_s": "KIN_OF"
+        "person2_legacy_id": "BEL465 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL325",
-        "person2_legacy_id": "BEL309 ",
-        "person1_id": "4984",
-        "person2_id": "4797",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL309 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL325",
-        "person2_legacy_id": "BEL310 ",
-        "person1_id": "4984",
-        "person2_id": "4798",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL310 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL325",
-        "person2_legacy_id": "SWE116 ",
-        "person1_id": "4984",
-        "person2_id": "2980",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "SWE116 "
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "BEL325",
-        "person2_legacy_id": "BEL367 ",
-        "person1_id": "4984",
-        "person2_id": "5291",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL367 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL326",
-        "person2_legacy_id": "BEL449 ",
-        "person1_id": "4985",
-        "person2_id": "6092",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL449 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL326",
-        "person2_legacy_id": "SWE116 ",
-        "person1_id": "4985",
-        "person2_id": "2980",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "SWE116 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL326",
-        "person2_legacy_id": "BEL357 ",
-        "person1_id": "4985",
-        "person2_id": "5224",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL357 "
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL326",
-        "person2_legacy_id": "BEL465 ",
-        "person1_id": "4985",
-        "person2_id": "4696",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL465 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL326",
-        "person2_legacy_id": "BEL309",
-        "person1_id": "4985",
-        "person2_id": "4797",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL309"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL326",
-        "person2_legacy_id": "BEL310 ",
-        "person1_id": "4985",
-        "person2_id": "4798",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL310 "
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "BEL326",
-        "person2_legacy_id": "BEL367 ",
-        "person1_id": "4985",
-        "person2_id": "5291",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "BEL367 "
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "BEL327",
-        "person2_legacy_id": "BEL197 ",
-        "person1_id": "5003",
-        "person2_id": "270",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "BEL197 "
     },
     {
+        "link_s": "LEADER_OF",
         "person1_legacy_id": "BEL327",
-        "person2_legacy_id": "BEL306 ",
-        "person1_id": "5003",
-        "person2_id": "4793",
-        "link_s": "LEADER_OF"
+        "person2_legacy_id": "BEL306 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL329",
-        "person2_legacy_id": "BEL325 ",
-        "person1_id": "5005",
-        "person2_id": "4984",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL325 "
     },
     {
+        "link_s": "TRAVEL",
         "person1_legacy_id": "BEL329",
-        "person2_legacy_id": "BEL325 ",
-        "person1_id": "5005",
-        "person2_id": "4984",
-        "link_s": "TRAVEL"
+        "person2_legacy_id": "BEL325 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL329",
-        "person2_legacy_id": "BEL326 ",
-        "person1_id": "5005",
-        "person2_id": "4985",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL326 "
     },
     {
+        "link_s": "TRAVEL",
         "person1_legacy_id": "BEL329",
-        "person2_legacy_id": "BEL326 ",
-        "person1_id": "5005",
-        "person2_id": "4985",
-        "link_s": "TRAVEL"
+        "person2_legacy_id": "BEL326 "
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL332",
-        "person2_legacy_id": "FR694",
-        "person1_id": "5011",
-        "person2_id": "1308",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR694"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "BEL376",
-        "person2_legacy_id": "BEL464",
-        "person1_id": "5015",
-        "person2_id": "6603",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL464"
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL376",
-        "person2_legacy_id": "BEL328",
-        "person1_id": "5015",
-        "person2_id": "5004",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL328"
     },
     {
+        "link_s": "MEETING",
         "person1_legacy_id": "BEL376",
-        "person2_legacy_id": "BEL329",
-        "person1_id": "5015",
-        "person2_id": "5005",
-        "link_s": "MEETING"
+        "person2_legacy_id": "BEL329"
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL376",
-        "person2_legacy_id": "BEL330",
-        "person1_id": "5015",
-        "person2_id": "5006",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL330"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "INT284",
-        "person2_legacy_id": "INT3",
-        "person1_id": "5085",
-        "person2_id": "1877",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "INT3"
     },
     {
+        "link_s": "LEADER_OF",
         "person1_legacy_id": "INT284",
-        "person2_legacy_id": "INT3",
-        "person1_id": "5085",
-        "person2_id": "1877",
-        "link_s": "LEADER_OF"
+        "person2_legacy_id": "INT3"
     },
     {
+        "link_s": "SPIRITUAL_LEADER_OF",
         "person1_legacy_id": "INT284",
-        "person2_legacy_id": "INT3",
-        "person1_id": "5085",
-        "person2_id": "1877",
-        "link_s": "SPIRITUAL_LEADER_OF"
+        "person2_legacy_id": "INT3"
     },
     {
+        "link_s": "MEETING",
         "person1_legacy_id": "INT284",
-        "person2_legacy_id": "INT273",
-        "person1_id": "5085",
-        "person2_id": "4622",
-        "link_s": "MEETING"
+        "person2_legacy_id": "INT273"
     },
     {
+        "link_s": "MEETING",
         "person1_legacy_id": "FR846",
-        "person2_legacy_id": "FR745",
-        "person1_id": "5090",
-        "person2_id": "1358",
-        "link_s": "MEETING"
+        "person2_legacy_id": "FR745"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "FR846",
-        "person2_legacy_id": "FR816",
-        "person1_id": "5090",
-        "person2_id": "4782",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "FR816"
     },
     {
+        "link_s": "MEETING",
         "person1_legacy_id": "FR846",
-        "person2_legacy_id": "FR743",
-        "person1_id": "5090",
-        "person2_id": "1356",
-        "link_s": "MEETING"
+        "person2_legacy_id": "FR743"
     },
     {
+        "link_s": "MEETING",
         "person1_legacy_id": "FR846",
-        "person2_legacy_id": "FR744",
-        "person1_id": "5090",
-        "person2_id": "1357",
-        "link_s": "MEETING"
+        "person2_legacy_id": "FR744"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "AU43",
-        "person2_legacy_id": "AU41",
-        "person1_id": "5111",
-        "person2_id": "5109",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "AU41"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "AU43",
-        "person2_legacy_id": "AU44",
-        "person1_id": "5111",
-        "person2_id": "5112",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "AU44"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "BEL338",
-        "person2_legacy_id": "BEL329",
-        "person1_id": "5128",
-        "person2_id": "5005",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL329"
     },
     {
+        "link_s": "LEADER_OF",
         "person1_legacy_id": "BEL343",
-        "person2_legacy_id": "BEL465",
-        "person1_id": "5140",
-        "person2_id": "4696",
-        "link_s": "LEADER_OF"
+        "person2_legacy_id": "BEL465"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL343",
-        "person2_legacy_id": "BEL465",
-        "person1_id": "5140",
-        "person2_id": "4696",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL465"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "UK942",
-        "person2_legacy_id": "FR694",
-        "person1_id": "5142",
-        "person2_id": "1308",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR694"
     },
     {
+        "link_s": "COMMUNICATION",
         "person1_legacy_id": "UK947",
-        "person2_legacy_id": "BEL197",
-        "person1_id": "5152",
-        "person2_id": "270",
-        "link_s": "COMMUNICATION"
+        "person2_legacy_id": "BEL197"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "UK947",
-        "person2_legacy_id": "BEL197",
-        "person1_id": "5152",
-        "person2_id": "270",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "BEL197"
     },
     {
+        "link_s": "TRAVEL",
         "person1_legacy_id": "AU48",
-        "person2_legacy_id": "AU44",
-        "person1_id": "5157",
-        "person2_id": "5112",
-        "link_s": "TRAVEL"
+        "person2_legacy_id": "AU44"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "AU48",
-        "person2_legacy_id": "AU44",
-        "person1_id": "5157",
-        "person2_id": "5112",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "AU44"
     },
     {
+        "link_s": "TRAVEL",
         "person1_legacy_id": "AU48",
-        "person2_legacy_id": "AU41",
-        "person1_id": "5157",
-        "person2_id": "5109",
-        "link_s": "TRAVEL"
+        "person2_legacy_id": "AU41"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "AU48",
-        "person2_legacy_id": "AU41",
-        "person1_id": "5157",
-        "person2_id": "5109",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "AU41"
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "FR853",
-        "person2_legacy_id": "BEL306",
-        "person1_id": "5180",
-        "person2_id": "4793",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL306"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "BEL345",
-        "person2_legacy_id": "BEL465",
-        "person1_id": "5201",
-        "person2_id": "4696",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "BEL465"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL351",
-        "person2_legacy_id": "BEL483",
-        "person1_id": "5209",
-        "person2_id": "6672",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL483"
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "BEL351",
-        "person2_legacy_id": "BEL483",
-        "person1_id": "5209",
-        "person2_id": "6672",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "BEL483"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "BEL357",
-        "person2_legacy_id": "BEL465",
-        "person1_id": "5224",
-        "person2_id": "4696",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "BEL465"
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL357",
-        "person2_legacy_id": "BEL465",
-        "person1_id": "5224",
-        "person2_id": "4696",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL465"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "BEL357",
-        "person2_legacy_id": "BEL329",
-        "person1_id": "5224",
-        "person2_id": "5005",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL329"
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL357",
-        "person2_legacy_id": "BEL308",
-        "person1_id": "5224",
-        "person2_id": "4795",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL308"
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL357",
-        "person2_legacy_id": "BEL307",
-        "person1_id": "5224",
-        "person2_id": "4794",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL307"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "BEL357",
-        "person2_legacy_id": "BEL341",
-        "person1_id": "5224",
-        "person2_id": "5138",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "BEL341"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "UK964",
-        "person2_legacy_id": "UK699",
-        "person1_id": "5239",
-        "person2_id": "3723",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "UK699"
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "BEL366",
-        "person2_legacy_id": "BEL310",
-        "person1_id": "5278",
-        "person2_id": "4798",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "BEL310"
     },
     {
+        "link_s": "COMMUNICATION",
         "person1_legacy_id": "BEL366",
-        "person2_legacy_id": "BEL310",
-        "person1_id": "5278",
-        "person2_id": "4798",
-        "link_s": "COMMUNICATION"
+        "person2_legacy_id": "BEL310"
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL366",
-        "person2_legacy_id": "BEL310",
-        "person1_id": "5278",
-        "person2_id": "4798",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL310"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "BEL366",
-        "person2_legacy_id": "BEL310",
-        "person1_id": "5278",
-        "person2_id": "4798",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "BEL310"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "IT394",
-        "person2_legacy_id": "BEL465",
-        "person1_id": "5279",
-        "person2_id": "4696",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "BEL465"
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "IT394",
-        "person2_legacy_id": "BEL465",
-        "person1_id": "5279",
-        "person2_id": "4696",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL465"
     },
     {
+        "link_s": "TRANSACTION",
         "person1_legacy_id": "UK1000",
-        "person2_legacy_id": "UK947",
-        "person1_id": "5311",
-        "person2_id": "5152",
-        "link_s": "TRANSACTION"
+        "person2_legacy_id": "UK947"
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL371",
-        "person2_legacy_id": "BEL326",
-        "person1_id": "5325",
-        "person2_id": "4985",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL326"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL371",
-        "person2_legacy_id": "BEL344",
-        "person1_id": "5325",
-        "person2_id": "5141",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL344"
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "BEL371",
-        "person2_legacy_id": "BEL344",
-        "person1_id": "5325",
-        "person2_id": "5141",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL344"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "FR872",
-        "person2_legacy_id": "BEL197",
-        "person1_id": "5334",
-        "person2_id": "270",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "BEL197"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "FR877",
-        "person2_legacy_id": "BEL329",
-        "person1_id": "5342",
-        "person2_id": "5005",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL329"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "FR877",
-        "person2_legacy_id": "BEL465",
-        "person1_id": "5342",
-        "person2_id": "4696",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL465"
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "GER407",
-        "person2_legacy_id": "BEL197",
-        "person1_id": "5424",
-        "person2_id": "270",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL197"
     },
     {
+        "link_s": "TRAVEL",
         "person1_legacy_id": "GER407",
-        "person2_legacy_id": "BEL197",
-        "person1_id": "5424",
-        "person2_id": "270",
-        "link_s": "TRAVEL"
+        "person2_legacy_id": "BEL197"
     },
     {
+        "link_s": "EMPLOYER_OF",
         "person1_legacy_id": "GER407",
-        "person2_legacy_id": "BEL197",
-        "person1_id": "5424",
-        "person2_id": "270",
-        "link_s": "EMPLOYER_OF"
+        "person2_legacy_id": "BEL197"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "GER432",
-        "person2_legacy_id": "BEL465",
-        "person1_id": "5462",
-        "person2_id": "4696",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "BEL465"
     },
     {
+        "link_s": "COMMUNICATION",
         "person1_legacy_id": "GER432",
-        "person2_legacy_id": "BEL465",
-        "person1_id": "5462",
-        "person2_id": "4696",
-        "link_s": "COMMUNICATION"
+        "person2_legacy_id": "BEL465"
     },
     {
+        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF",
         "person1_legacy_id": "GER432",
-        "person2_legacy_id": "BEL465",
-        "person1_id": "5462",
-        "person2_id": "4696",
-        "link_s": "FINANCIAL/LOGISITC_SUPPORTOR_OF"
+        "person2_legacy_id": "BEL465"
     },
     {
+        "link_s": "UNCLE_OF/AUNT_OF",
         "person1_legacy_id": "IT407",
-        "person2_legacy_id": "BEL343",
-        "person1_id": "5584",
-        "person2_id": "5140",
-        "link_s": "UNCLE_OF/AUNT_OF"
+        "person2_legacy_id": "BEL343"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "INT298",
-        "person2_legacy_id": "BEL273",
-        "person1_id": "5806",
-        "person2_id": "4710",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL273"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL431",
-        "person2_legacy_id": "BEL483",
-        "person1_id": "5869",
-        "person2_id": "6672",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL483"
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "BEL431",
-        "person2_legacy_id": "BEL483",
-        "person1_id": "5869",
-        "person2_id": "6672",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "BEL483"
     },
     {
+        "link_s": "COORDINATOR_OF",
         "person1_legacy_id": "BEL442",
-        "person2_legacy_id": "BEL343",
-        "person1_id": "5955",
-        "person2_id": "5140",
-        "link_s": "COORDINATOR_OF"
+        "person2_legacy_id": "BEL343"
     },
     {
+        "link_s": "UNCLE_OF/AUNT_OF",
         "person1_legacy_id": "BEL442",
-        "person2_legacy_id": "BEL343",
-        "person1_id": "5955",
-        "person2_id": "5140",
-        "link_s": "UNCLE_OF/AUNT_OF"
+        "person2_legacy_id": "BEL343"
     },
     {
+        "link_s": "COLLEAGUE_OF",
         "person1_legacy_id": "GER513",
-        "person2_legacy_id": "INT470",
-        "person1_id": "6075",
-        "person2_id": "6525",
-        "link_s": "COLLEAGUE_OF"
+        "person2_legacy_id": "INT470"
     },
     {
+        "link_s": "LEADER_OF",
         "person1_legacy_id": "BEL446",
-        "person2_legacy_id": "BEL357",
-        "person1_id": "6081",
-        "person2_id": "5224",
-        "link_s": "LEADER_OF"
+        "person2_legacy_id": "BEL357"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "BEL449",
-        "person2_legacy_id": "BEL329",
-        "person1_id": "6092",
-        "person2_id": "5005",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL329"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "SP484",
-        "person2_legacy_id": "BEL465",
-        "person1_id": "6154",
-        "person2_id": "4696",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL465"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "FR1047",
-        "person2_legacy_id": "FR1049",
-        "person1_id": "6189",
-        "person2_id": "6191",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR1049"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "FR1048",
-        "person2_legacy_id": "FR1049",
-        "person1_id": "6190",
-        "person2_id": "6191",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR1049"
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "FR1061",
-        "person2_legacy_id": "FR242",
-        "person1_id": "6212",
-        "person2_id": "828",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "FR242"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "FR1062",
-        "person2_legacy_id": "FR219",
-        "person1_id": "6227",
-        "person2_id": "804",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "FR219"
     },
     {
+        "link_s": "LEADER_OF",
         "person1_legacy_id": "FR1083",
-        "person2_legacy_id": "BEL343",
-        "person1_id": "6622",
-        "person2_id": "5140",
-        "link_s": "LEADER_OF"
+        "person2_legacy_id": "BEL343"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "FR1083",
-        "person2_legacy_id": "BEL465",
-        "person1_id": "6622",
-        "person2_id": "4696",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL465"
     },
     {
+        "link_s": "LEADER_OF",
         "person1_legacy_id": "FR1083",
-        "person2_legacy_id": "BEL197",
-        "person1_id": "6622",
-        "person2_id": "270",
-        "link_s": "LEADER_OF"
+        "person2_legacy_id": "BEL197"
     },
     {
+        "link_s": "COLLEAGUE_OF",
         "person1_legacy_id": "FR1088",
-        "person2_legacy_id": "FR1083",
-        "person1_id": "6628",
-        "person2_id": "6622",
-        "link_s": "COLLEAGUE_OF"
+        "person2_legacy_id": "FR1083"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "BEL481",
-        "person2_legacy_id": "BEL332",
-        "person1_id": "6669",
-        "person2_id": "5011",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "BEL332"
     },
     {
+        "link_s": "COLLEAGUE_OF",
         "person1_legacy_id": "BEL482",
-        "person2_legacy_id": "BEL483",
-        "person1_id": "6670",
-        "person2_id": "6672",
-        "link_s": "COLLEAGUE_OF"
+        "person2_legacy_id": "BEL483"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "FR1205",
-        "person2_legacy_id": "BEL357",
-        "person1_id": "7556",
-        "person2_id": "5224",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "BEL357"
     },
     {
+        "link_s": "SHARED_PLOT",
         "person1_legacy_id": "FR1205",
-        "person2_legacy_id": "GER432",
-        "person1_id": "7556",
-        "person2_id": "5462",
-        "link_s": "SHARED_PLOT"
+        "person2_legacy_id": "GER432"
     },
     {
+        "link_s": "COLLEAGUE_OF",
         "person1_legacy_id": "IT557",
-        "person2_legacy_id": "BEL197",
-        "person1_id": "7570",
-        "person2_id": "270",
-        "link_s": "COLLEAGUE_OF"
+        "person2_legacy_id": "BEL197"
     },
     {
+        "link_s": "COLLEAGUE_OF",
         "person1_legacy_id": "IT557",
-        "person2_legacy_id": "BEL301",
-        "person1_id": "7570",
-        "person2_id": "4771",
-        "link_s": "COLLEAGUE_OF"
+        "person2_legacy_id": "BEL301"
     },
     {
+        "link_s": "COLLEAGUE_OF",
         "person1_legacy_id": "IT557",
-        "person2_legacy_id": "BEL306",
-        "person1_id": "7570",
-        "person2_id": "4793",
-        "link_s": "COLLEAGUE_OF"
+        "person2_legacy_id": "BEL306"
     },
     {
+        "link_s": "COLLEAGUE_OF",
         "person1_legacy_id": "IT558",
-        "person2_legacy_id": "BEL301",
-        "person1_id": "7571",
-        "person2_id": "4771",
-        "link_s": "COLLEAGUE_OF"
+        "person2_legacy_id": "BEL301"
     },
     {
+        "link_s": "COLLEAGUE_OF",
         "person1_legacy_id": "IT558",
-        "person2_legacy_id": "BEL306",
-        "person1_id": "7571",
-        "person2_id": "4793",
-        "link_s": "COLLEAGUE_OF"
+        "person2_legacy_id": "BEL306"
     },
     {
+        "link_s": "COLLEAGUE_OF",
         "person1_legacy_id": "IT558",
-        "person2_legacy_id": "BEL197",
-        "person1_id": "7571",
-        "person2_id": "270",
-        "link_s": "COLLEAGUE_OF"
+        "person2_legacy_id": "BEL197"
     },
     {
+        "link_s": "COLLEAGUE_OF",
         "person1_legacy_id": "IT559",
-        "person2_legacy_id": "BEL306",
-        "person1_id": "7572",
-        "person2_id": "4793",
-        "link_s": "COLLEAGUE_OF"
+        "person2_legacy_id": "BEL306"
     },
     {
+        "link_s": "COLLEAGUE_OF",
         "person1_legacy_id": "IT559",
-        "person2_legacy_id": "BEL301",
-        "person1_id": "7572",
-        "person2_id": "4771",
-        "link_s": "COLLEAGUE_OF"
+        "person2_legacy_id": "BEL301"
     },
     {
+        "link_s": "COLLEAGUE_OF",
         "person1_legacy_id": "IT559",
-        "person2_legacy_id": "BEL197",
-        "person1_id": "7572",
-        "person2_id": "270",
-        "link_s": "COLLEAGUE_OF"
+        "person2_legacy_id": "BEL197"
     },
     {
+        "link_s": "FRIEND_OF",
         "person1_legacy_id": "FR1222",
-        "person2_legacy_id": "FR801",
-        "person1_id": "7656",
-        "person2_id": "4755",
-        "link_s": "FRIEND_OF"
+        "person2_legacy_id": "FR801"
     },
     {
+        "link_s": "COLLEAGUE_OF",
         "person1_legacy_id": "BEL525",
-        "person2_legacy_id": "FR242",
-        "person1_id": "7758",
-        "person2_id": "828",
-        "link_s": "COLLEAGUE_OF"
+        "person2_legacy_id": "FR242"
     },
     {
+        "link_s": "LEADER_OF",
         "person1_legacy_id": "INT517",
-        "person2_legacy_id": "INT273",
-        "person1_id": "7824",
-        "person2_id": "4622",
-        "link_s": "LEADER_OF"
+        "person2_legacy_id": "INT273"
     },
     {
+        "link_s": "ASSOCIATE_OF",
         "person1_legacy_id": "BEL531",
-        "person2_legacy_id": "SP549",
-        "person1_id": "7866",
-        "person2_id": "1400",
-        "link_s": "ASSOCIATE_OF"
+        "person2_legacy_id": "SP549"
     }
 ]
