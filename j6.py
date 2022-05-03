@@ -23,44 +23,72 @@ from utils.animate import Loader
 class File:
     ''' Class to represent a file of csv data and all of its attributes. '''
     def __init__(self, file_path: str) -> None:
-        self.in_file_path: str = file_path
-        self.in_json_path: str = 'data/json/in_j6_var_sheet.json'
-        self.out_json_path: str = 'data/json/out_j6_var_sheet.json'
-        self.out_csv_path: str = 'data/csv/out_j6_var_sheet.csv'
+        # j6 var sheet:
+        self.db_domestic_extremist_infile_csv: str = file_path
+        self.db_domestic_extremist_outfile_csv: str = 'data/csv/out_j6_var_sheet.csv'
+        self.db_domestic_extremist_outfile_json: str = 'data/json/out_j6_var_sheet.json'
         
-        self.in_file_data: list(dict()) = list(dict())
-        self.out_file_data_temp: list(dict()) = list(dict())
-        self.out_file_data: list(dict()) = list(dict())
+        # person-independent:
+        self.db_city_outfile_csv: str = 'data/csv/out_db_city.csv'
+        self.db_city_outfile_json: str = 'data/json/out_db_city.json'
+        self.c_rad_outfile_csv: str = 'data/csv/out_rad.csv'
+        self.c_rad_outfile_json: str = 'data/json/out_rad.json'
+        self.db_ethnicity_outfile_csv: str = 'data/csv/out_db_ethnicity.csv'
+        self.db_ethnicity_outfile_json: str = 'data/json/out_db_ethnicity.json'
+        
+        # person-dependent:
+        self.db_de_arrest_outfile_csv: str = 'data/csv/out_db_de_arrest.csv'
+        self.db_de_arrest_outfile_json: str = 'data/json/out_db_de_arrest.json'
+        self.db_de_residency_outfile_csv: str = 'data/csv/out_db_de_residency.csv'
+        self.db_de_residency_outfile_json: str = 'data/json/out_db_de_residency.json'
+        self.db_de_citizenship_outfile_csv: str = 'data/csv/out_db_de_citizenship.csv'
+        self.db_de_citizenship_outfile_json: str = 'data/json/out_db_de_citizenship.json'
+        self.db_de_personalias_outfile_csv: str = 'data/csv/out_db_de_personalias.csv'
+        self.db_de_personalias_outfile_json: str = 'data/json/out_db_de_personalias.json'
+        self.db_personalias_outfile_csv: str = 'data/csv/out_db_personalias.csv'
+        self.db_personalias_outfile_json: str = 'data/json/out_db_personalias.json'
+        
+        # j6 var sheet:
+        self.j6_var_sheet_data: list(dict()) = list(dict())
+        
+        # person-independent:
+        self.db_city_hometown_out: list(dict()) = list()
+        self.db_city_death_out: list(dict()) = list()
+        self.c_rad_out: list(dict()) = list()
+        self.db_ethnicity_out: list(dict()) = list()
+
+        # person-dependent:       
+        self.db_de_arrest_out: list(dict()) = list()
+        self.db_de_residency_out: list(dict()) = list()
+        self.db_de_citizenship_out: list(dict()) = list()
+        self.db_de_personalias_out: list(dict()) = list()
         
     
     def load_dataframe(self) -> None:
         ''' method to load the csv file into a dataframe. '''
         # collect cleaned json data from raw csv
-        with open(self.in_file_path, 'r', encoding='UTF-8') as csv_file:
+        with open(self.db_domestic_extremist_infile_csv, 'r', encoding='UTF-8') as csv_file:
             csv_reader = csv.DictReader(csv_file)
             for i, rows in enumerate(csv_reader):
-                # TODO
-                # in the future, I will replace those that need to be sent somewhere with
-                # a dict that reps the schema in their destination. That way I can just have
-                # a method go through and send them to new files as well as replace them
-                # with a (retrieved?) id
-                self.in_file_data.append({
+                # cleaning
+                if not rows['Hometown']:
+                    rows['Hometown'] = ","
+                    
+                self.j6_var_sheet_data.append({
                     'id': i+1,
                     'legacy_id': 'DE' + str(i+1),
                     'legacy_id_num': i+1,
                     'person_name': rows['Name'],
-                    'nickname': rows['alias'],
-                    'alias': {
-                        'id': i+1,
-                        'person_alias': rows['alias'],
-                        'person_id': i+1
-                    },                                              # this needs to be sent to db_personalalias
-                    # 'terrorist_type': rows[],                     ?
-                    # 'criminal_type': rows[],                      ?
+                    'nickname': rows['Alias'],
+                    # 'terrorist_type':,            ?
+                    # 'criminal_type':,             ?
                     'year_first_terror_le_contact': rows['Year of First Terror-Related Law Enforcement Contact'],
                     'year_born': rows['Year Born'],
                     'sex': rows['Sex'],
-                    'ethnicity_id': rows['Ethnicity'],
+                    'ethnicity_id': {
+                        'id': i+1,
+                        'ethnicity_name': rows['Ethnicity']
+                    },
                     'immigration_status': rows['Immigration Status'],
                     'native_born': rows['Native Born'],
                     'education': rows['Education'],
@@ -71,119 +99,191 @@ class File:
                         'id': i+1,
                         'city': rows['Hometown'].split(',')[0],
                         'region': rows['Hometown'].split(',')[1],
-                        'country_id': '', #! country code for USA
-                    },                                              # this needs to be sent to db_city
+                        'country_id': 840,
+                    },                                                          # this needs to be sent to db_city
                     'year_death': rows['Year of Death'],
                     'cause_death': rows['Cause of Death'],
-                    'city_of_death': {
+                    'city_death_id': {
                         'id': i+1,
                         'city': rows['City of Death'].split(',')[0],
-                        'region': '',
-                        'country_id': '', #! country code for USA
-                    },                                              # this needs to be sent to db_city
-                    'country_of_death': '', #! code for US          # this needs to be sent to db_country
-                    'status': '',
-                    'plot': '',
-                    'demographics': '',
-                    'edu_occ': '',
-                    'core_ideology': '',
-                    'foreign_ties': '',
-                    'activity': '',
-                    'sources': '',
+                        'region': None,
+                        'country_id': 840, 
+                    },                                                          # this needs to be sent to db_city
+                    'country_of_death': 840,                                    # this needs to be sent to db_country
+                    'status': None,
+                    'plot': None,
+                    'demographics': None,
+                    'edu_occ': None,
+                    'core_ideology': None,
+                    'foreign_ties': None,
+                    'activity': None,
+                    'sources': None,
                     'recent_status': rows['Recent Status'],
-                    'last_updated': 20220502,                       # unsure about date - what is the specific type
-                    'mugshot_file': '',
+                    'last_updated': None,                                        # unsure about date - what is the specific type
+                    'mugshot_file': None,
                     'flec_reason': rows['FLEC Reason'],
                     'radicalization_reason_id': {
                         'id': i+1,
                         'reason': rows['Radicalization Reason'],
-                        'description': ''
-                    }                                               # this needs to be sent to c_radicalization
+                        'description': None
+                    },                                                          # this needs to be sent to c_radicalization
                     # 'nonviolent_action':,         ?  
                     # 'violent_action':,            ?
                     # 'dropout':,                   ?
-                    'social_behavioral': rows['Social-Behavioral']
+                    'social_behavioral': rows['Social-Behavioral'],
+                    
+                    # below are dicts that will be cut out to go elsewhere
+                    'db_de_arrest': {
+                        'arrest_year': rows['Date of J6 Arrest'].split('-')[0],
+                        'arrest_country_id': 840,
+                        'arrest_outcome': None,
+                        'sentence_year': None,
+                        'sentence_country_id': None,
+                        'sentence_type': None,
+                        'sentence_length': None,
+                        'life_sentence': None,
+                        'death_sentence': None,
+                        'de_person_id': i+1
+                    },
+                    'db_de_citizenship': {
+                        'id': i+1,
+                        'citizenship_type': 'PRIMARY',
+                        'country_id': 840,
+                        'de_person_id': i+1
+                    },
+                    'db_de_residency': {
+                        'id': i+1,
+                        'residency_type': 'PRIMARY',
+                        'country_id': 840,
+                        'de_person_id': i+1
+                    },
+                    'db_de_personalias': {
+                        'id': i+1,
+                        'person_alias': rows['Alias'],
+                        'de_person_id': i+1
+                    },                                                          # this needs to be sent to db_personalalias
                 })
-        # write to json
-        with open(self.in_json_path, 'w') as json_file:
-            json_file.write(json.dumps(self.in_file_data, indent=4))
         
     def handle_endpoints(self) -> None:
-        db_personalias_outfile_csv: str = 'data/csv/out_db_personalias.csv'
-        db_personalias_outfile_json: str = 'data/json/out_db_personalias.json'
-        db_city_hometown_outfile_csv: str = 'data/csv/out_db_city_hometown.csv'
-        db_city_hometown_outfile_json: str = 'data/json/out_db_city_hometown.json'
-        db_city_death_outfile_csv: str = 'data/csv/out_db_death.csv'
-        db_city_death_outfile_json: str = 'data/json/out_db_death.json'
-        r_rad_outfile_csv: str = 'data/csv/out_rad.csv'
-        r_rad_outfile_json: str = 'data/json/out_rad.json'
-        
-        db_personalias_dict: list(dict())
-        db_city_hometown_dict: list(dict())
-        db_city_death_dict: list(dict())
-        c_rad_dict: list(dict())
-        
-        # go through and send the dicts to their endpoints
-        # ? recieving id somehow?
-        for entry in self.in_file_data:
-            db_personalias_dict.append(entry['alias'])
-            db_city_death_dict.append(entry['city_of_death'])
-            db_city_hometown_dict.append(entry['hometown_id'])
-            c_rad_dict.append(entry['radicalization_reason_id'])
-        
-        # write db personalias to file and replace with id
-        
-        
-        
-        # clean all the data in self.in_file_data
-        # iterate through 
-    
-    def clean_output(self) -> None:
-        j = 0
-        for dict in self.out_file_data_temp:
-            links = dict['link_s'].split(';')
-            if len(links) > 1:
-                for i in range(len(links)-1):
-                    res = {'id': j,
-                           'link_s': links[i],
-                           'person1_id': dict['person1_id'],
-                           'person2_id': dict['person2_id']
-                            }
-                    j+=1
-                    self.out_file_data.append(res)
-            else:
-                res = {'id': j,
-                       'link_s': links[0],
-                       'person1_id': dict['person1_id'],
-                           'person2_id': dict['person2_id']
-                        }
-                j+=1
-                self.out_file_data.append(res)
-                
+        ''' '''
+        for entry in self.j6_var_sheet_data:
+            # person-independent:
+            self.db_city_hometown_out.append(entry['hometown_id'])
+            #? entry['hometown_id'] = id?
+            self.db_city_death_out.append(entry['city_death_id'])
+            #? entry['city_death_id'] = id?
+            self.c_rad_out.append(entry['radicalization_reason_id'])
+            #? entry['radicalization_reason_id'] = id?
+            self.db_ethnicity_out.append(entry['ethnicity_id'])
+            #? entry['ethnicity_id'] = id?
+            
+            # person-dependent:
+            self.db_de_arrest_out.append(entry['db_de_arrest'])
+            del entry['db_de_arrest']
+            self.db_de_residency_out.append(entry['db_de_residency'])
+            del entry['db_de_residency']
+            self.db_de_citizenship_out.append(entry['db_de_citizenship'])
+            del entry['db_de_citizenship']
+            self.db_de_personalias_out.append(entry['db_de_personalias'])
+            del entry['db_de_personalias']
         
     def write_out(self) -> None:
-        ''' method to write processed csv to a new json file and new csv file. '''
-        # write to json
-        with open(self.out_json_path, 'w') as json_file:
-            json_file.write(json.dumps(self.out_file_data, indent=4))
-            
-        # for some reason, this writes to csvs and makes lists with multiple items in them raw strs?
-        # print(self.out_file_data)
-        keys = self.out_file_data[0].keys()
-        with open(self.out_csv_path, 'w', newline='') as output_file:
+        ''' '''        
+        # main output:
+
+        # j6 variable sheet --> db_domestic_extremist
+        # json
+        with open(self.db_domestic_extremist_outfile_json, 'w') as json_file:
+            json_file.write(json.dumps(self.j6_var_sheet_data, indent=4)) 
+        # csv
+        keys = self.j6_var_sheet_data[0].keys()
+        with open(self.db_domestic_extremist_outfile_csv, 'w', newline=None) as output_file:
             dict_writer = csv.DictWriter(output_file, keys)
             dict_writer.writeheader()
-            dict_writer.writerows(self.out_file_data)
-  
+            dict_writer.writerows(self.j6_var_sheet_data)
+        
+        # person-independent outputs:
+        
+        # hometown --> db_city
+        with open(self.db_city_outfile_json, 'w') as json_file:
+            json_file.write(json.dumps(self.db_city_hometown_out, indent=4))
+        keys = self.db_city_hometown_out[0].keys()
+        with open(self.db_city_outfile_csv, 'w', newline=None) as output_file:
+            dict_writer = csv.DictWriter(output_file, keys)
+            dict_writer.writeheader()
+            dict_writer.writerows(self.db_city_hometown_out) 
+              
+        # death-town --> db_city
+        with open(self.db_city_outfile_json, 'w') as json_file:
+            json_file.write(json.dumps(self.db_city_death_out, indent=4))
+        with open(self.db_city_outfile_csv, 'a', newline=None) as output_file:
+            dict_writer = csv.DictWriter(output_file, keys)
+            dict_writer.writerows(self.db_city_death_out)
+            
+        # radicalization --> c_radicalization
+        with open(self.c_rad_outfile_json, 'w') as json_file:
+            json_file.write(json.dumps(self.c_rad_out, indent=4))
+        keys = self.c_rad_out[0].keys()
+        with open(self.c_rad_outfile_csv, 'w', newline=None) as output_file:
+            dict_writer = csv.DictWriter(output_file, keys)
+            dict_writer.writeheader()
+            dict_writer.writerows(self.c_rad_out)  
+            
+        # ethnicity --> db_ethnicity
+        with open(self.db_ethnicity_outfile_json, 'w') as json_file:
+            json_file.write(json.dumps(self.db_ethnicity_out, indent=4))
+        keys = self.db_ethnicity_out[0].keys()
+        with open(self.db_ethnicity_outfile_csv, 'w', newline=None) as output_file:
+            dict_writer = csv.DictWriter(output_file, keys)
+            dict_writer.writeheader()
+            dict_writer.writerows(self.db_ethnicity_out)  
+        
+        # person-dependent outputs:
+        
+        # arrest --> db_de_arrest
+        with open(self.db_de_arrest_outfile_json, 'w') as json_file:
+            json_file.write(json.dumps(self.db_de_arrest_out, indent=4))
+        keys = self.db_de_arrest_out[0].keys()
+        with open(self.db_de_arrest_outfile_csv, 'w', newline=None) as output_file:
+            dict_writer = csv.DictWriter(output_file, keys)
+            dict_writer.writeheader()
+            dict_writer.writerows(self.db_de_arrest_out) 
+        
+        # residency --> db_de_residency
+        with open(self.db_de_residency_outfile_json, 'w') as json_file:
+            json_file.write(json.dumps(self.db_de_residency_out, indent=4))
+        keys = self.db_de_residency_out[0].keys()
+        with open(self.db_de_residency_outfile_csv, 'w', newline=None) as output_file:
+            dict_writer = csv.DictWriter(output_file, keys)
+            dict_writer.writeheader()
+            dict_writer.writerows(self.db_de_residency_out) 
+            
+        # citizenship --> db_de_citizenship
+        with open(self.db_de_citizenship_outfile_json, 'w') as json_file:
+            json_file.write(json.dumps(self.db_de_citizenship_out, indent=4))
+        keys = self.db_de_citizenship_out[0].keys()
+        with open(self.db_de_citizenship_outfile_csv, 'w', newline=None) as output_file:
+            dict_writer = csv.DictWriter(output_file, keys)
+            dict_writer.writeheader()
+            dict_writer.writerows(self.db_de_citizenship_out)
+            
+        # alias --> personalias  (a copy is also sent to db_de under 'nickname')
+        with open(self.db_de_personalias_outfile_json, 'w') as json_file:
+            json_file.write(json.dumps(self.db_de_personalias_out, indent=4))
+        keys = self.db_de_personalias_out[0].keys()
+        with open(self.db_de_personalias_outfile_csv, 'w', newline=None) as output_file:
+            dict_writer = csv.DictWriter(output_file, keys)
+            dict_writer.writeheader()
+            dict_writer.writerows(self.db_de_personalias_out) 
+      
       
 def main() -> None:
-    # user_io_file = input(f"\nEnter a file path > ")                                           # for user input
-    user_io_file = "data/csv/in_j6_var_sheet.csv"                                                 # for file
+    # user_io_file = input(f"\nEnter a file path > ")                                           
+    user_io_file = "data/csv/in_j6_var_sheet.csv"                                                 
     user_file = File(file_path=user_io_file)
     user_file.load_dataframe()
-    # user_file.parse_linkages()
-    # user_file.clean_output()
-    # user_file.write_out()
+    user_file.handle_endpoints()
+    user_file.write_out()
     
 if __name__ == '__main__':
     main()
