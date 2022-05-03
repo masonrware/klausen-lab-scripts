@@ -1,7 +1,7 @@
 #!usr/bin/python3.9
 
-# parser.py
-# Version 1.0.0
+# associates.py
+# Version 1.5.0
 # 4/8/2022
 
 # Western Jihadism Project; Brandeis University
