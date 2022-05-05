@@ -78,8 +78,8 @@ class File:
 
                 self.j6_var_sheet_data.append({
                     'id': j+1,
-                    'legacy_id': 'DE' + str(j+1),
-                    'legacy_id_num': j+1,
+                    'legacy_id': 'DE' + str(i+1),
+                    'legacy_id_num': i+1,
                     'person_name': rows['Name'],
                     'nickname': rows['Alias'],
                     'terrorist_type': 'JANUARY 6',                  # ?
@@ -189,14 +189,14 @@ class File:
         ''' '''
         for entry in self.j6_var_sheet_data:
             # person-independent:
-            self.db_city_hometown_out.append(entry['hometown_id'])
-            #? entry['hometown_id'] = id?
-            self.db_city_death_out.append(entry['city_death_id'])
-            #? entry['city_death_id'] = id?
-            self.c_rad_out.append(entry['radicalization_reason_id'])
-            #? entry['radicalization_reason_id'] = id?
-            self.db_ethnicity_out.append(entry['ethnicity_id'])
-            #? entry['ethnicity_id'] = id?
+            # self.db_city_hometown_out.append(entry['hometown_id'])
+            # #? entry['hometown_id'] = id?
+            # self.db_city_death_out.append(entry['city_death_id'])
+            # #? entry['city_death_id'] = id?
+            # self.c_rad_out.append(entry['radicalization_reason_id'])
+            # #? entry['radicalization_reason_id'] = id?
+            # self.db_ethnicity_out.append(entry['ethnicity_id'])
+            # #? entry['ethnicity_id'] = id?
             
             # person-dependent:
             self.db_de_arrest_out.append(entry['db_de_arrest'])
@@ -225,39 +225,39 @@ class File:
         
         # person-independent outputs:
         
-        # hometown --> db_city
-        with open(self.db_city_outfile_json, 'w') as json_file:
-            json_file.write(json.dumps(self.db_city_hometown_out, indent=4))
-        keys = self.db_city_hometown_out[0].keys()
-        with open(self.db_city_outfile_csv, 'w', newline=None) as output_file:
-            dict_writer = csv.DictWriter(output_file, keys)
-            dict_writer.writeheader()
-            dict_writer.writerows(self.db_city_hometown_out) 
+        # # hometown --> db_city
+        # with open(self.db_city_outfile_json, 'w') as json_file:
+        #     json_file.write(json.dumps(self.db_city_hometown_out, indent=4))
+        # keys = self.db_city_hometown_out[0].keys()
+        # with open(self.db_city_outfile_csv, 'w', newline=None) as output_file:
+        #     dict_writer = csv.DictWriter(output_file, keys)
+        #     dict_writer.writeheader()
+        #     dict_writer.writerows(self.db_city_hometown_out) 
               
-        # death-town --> db_city
-        with open(self.db_city_outfile_json, 'w') as json_file:
-            json_file.write(json.dumps(self.db_city_death_out, indent=4))
-        with open(self.db_city_outfile_csv, 'a', newline=None) as output_file:
-            dict_writer = csv.DictWriter(output_file, keys)
-            dict_writer.writerows(self.db_city_death_out)
+        # # death-town --> db_city
+        # with open(self.db_city_outfile_json, 'w') as json_file:
+        #     json_file.write(json.dumps(self.db_city_death_out, indent=4))
+        # with open(self.db_city_outfile_csv, 'a', newline=None) as output_file:
+        #     dict_writer = csv.DictWriter(output_file, keys)
+        #     dict_writer.writerows(self.db_city_death_out)
             
-        # radicalization --> c_radicalization
-        with open(self.c_rad_outfile_json, 'w') as json_file:
-            json_file.write(json.dumps(self.c_rad_out, indent=4))
-        keys = self.c_rad_out[0].keys()
-        with open(self.c_rad_outfile_csv, 'w', newline=None) as output_file:
-            dict_writer = csv.DictWriter(output_file, keys)
-            dict_writer.writeheader()
-            dict_writer.writerows(self.c_rad_out)  
+        # # radicalization --> c_radicalization
+        # with open(self.c_rad_outfile_json, 'w') as json_file:
+        #     json_file.write(json.dumps(self.c_rad_out, indent=4))
+        # keys = self.c_rad_out[0].keys()
+        # with open(self.c_rad_outfile_csv, 'w', newline=None) as output_file:
+        #     dict_writer = csv.DictWriter(output_file, keys)
+        #     dict_writer.writeheader()
+        #     dict_writer.writerows(self.c_rad_out)  
             
-        # ethnicity --> db_ethnicity
-        with open(self.db_ethnicity_outfile_json, 'w') as json_file:
-            json_file.write(json.dumps(self.db_ethnicity_out, indent=4))
-        keys = self.db_ethnicity_out[0].keys()
-        with open(self.db_ethnicity_outfile_csv, 'w', newline=None) as output_file:
-            dict_writer = csv.DictWriter(output_file, keys)
-            dict_writer.writeheader()
-            dict_writer.writerows(self.db_ethnicity_out)  
+        # # ethnicity --> db_ethnicity
+        # with open(self.db_ethnicity_outfile_json, 'w') as json_file:
+        #     json_file.write(json.dumps(self.db_ethnicity_out, indent=4))
+        # keys = self.db_ethnicity_out[0].keys()
+        # with open(self.db_ethnicity_outfile_csv, 'w', newline=None) as output_file:
+        #     dict_writer = csv.DictWriter(output_file, keys)
+        #     dict_writer.writeheader()
+        #     dict_writer.writerows(self.db_ethnicity_out)  
         
         # person-dependent outputs:
         
