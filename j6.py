@@ -63,19 +63,17 @@ class File:
         self.db_de_citizenship_out: list(dict()) = list()
         self.db_de_personalias_out: list(dict()) = list()
         
-    
     def load_dataframe(self) -> None:
         ''' method to load the csv file into a dataframe. '''
         # collect cleaned json data from raw csv
         with open(self.db_domestic_extremist_infile_csv, 'r', encoding='UTF-8') as csv_file:
             csv_reader = csv.DictReader(csv_file)
+            j: int = 7884
             for i, rows in enumerate(csv_reader):
                 # cleaning
                 if not rows['Hometown']:
                     rows['Hometown'] = ","
-                
-                j=7884
-
+            
                 self.j6_var_sheet_data.append({
                     'id': j+1,
                     'legacy_id': 'DE' + str(i+1),
