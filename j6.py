@@ -134,7 +134,7 @@ class File:
                     'philosophy': None,
                     'sources': '',
                     'recent_status': rows['Recent Status'],
-                    'last_updated': None,                                        # unsure about date - what is the specific type
+                    'last_updated': '2022-05-05',                                        # unsure about date - what is the specific type
                     'mugshot_file': None,
                     'flec_reason': rows['FLEC Reason'],
 
