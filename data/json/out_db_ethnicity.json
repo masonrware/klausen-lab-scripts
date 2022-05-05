@@ -189,7 +189,7 @@
     },
     {
         "id": 48,
-        "ethnicity_name": "White-European"
+        "ethnicity_name": "African-American"
     },
     {
         "id": 49,
@@ -209,7 +209,7 @@
     },
     {
         "id": 53,
-        "ethnicity_name": "African-American"
+        "ethnicity_name": "White-European"
     },
     {
         "id": 54,
@@ -289,30 +289,10 @@
     },
     {
         "id": 73,
-        "ethnicity_name": "White-European"
+        "ethnicity_name": "Lebanese"
     },
     {
         "id": 74,
-        "ethnicity_name": "White-European"
-    },
-    {
-        "id": 75,
-        "ethnicity_name": ""
-    },
-    {
-        "id": 76,
-        "ethnicity_name": "White-European"
-    },
-    {
-        "id": 77,
-        "ethnicity_name": "White-European"
-    },
-    {
-        "id": 78,
-        "ethnicity_name": ""
-    },
-    {
-        "id": 79,
         "ethnicity_name": "White-European"
     }
 ]

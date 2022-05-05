@@ -171,7 +171,7 @@
     },
     {
         "id": 35,
-        "reason": "Dissemination",
+        "reason": "Steps Towards Violence",
         "description": null
     },
     {
@@ -196,17 +196,17 @@
     },
     {
         "id": 40,
-        "reason": "Steps Towards Violence",
+        "reason": "Desire for Action",
         "description": null
     },
     {
         "id": 41,
-        "reason": "Steps Towards Violence",
+        "reason": "",
         "description": null
     },
     {
         "id": 42,
-        "reason": "Steps Towards Violence",
+        "reason": "Peer-Immersion",
         "description": null
     },
     {
@@ -216,12 +216,12 @@
     },
     {
         "id": 44,
-        "reason": "Desire for Action",
+        "reason": "Steps Towards Violence",
         "description": null
     },
     {
         "id": 45,
-        "reason": "",
+        "reason": "Steps Towards Violence",
         "description": null
     },
     {
@@ -236,7 +236,7 @@
     },
     {
         "id": 48,
-        "reason": "Steps Towards Violence",
+        "reason": "",
         "description": null
     },
     {
@@ -246,32 +246,32 @@
     },
     {
         "id": 50,
-        "reason": "Peer-Immersion",
+        "reason": "Dissemination",
         "description": null
     },
     {
         "id": 51,
-        "reason": "",
+        "reason": "Peer-Immersion",
         "description": null
     },
     {
         "id": 52,
-        "reason": "Steps Towards Violence",
+        "reason": "Information Seeking",
         "description": null
     },
     {
         "id": 53,
-        "reason": "",
+        "reason": "Dissemination",
         "description": null
     },
     {
         "id": 54,
-        "reason": "Steps Towards Violence",
+        "reason": "Peer-Immersion",
         "description": null
     },
     {
         "id": 55,
-        "reason": "Dissemination",
+        "reason": "Steps Towards Violence",
         "description": null
     },
     {
@@ -281,42 +281,42 @@
     },
     {
         "id": 57,
-        "reason": "Peer-Immersion",
+        "reason": "Steps Towards Violence",
         "description": null
     },
     {
         "id": 58,
-        "reason": "Information Seeking",
+        "reason": "Dissemination",
         "description": null
     },
     {
         "id": 59,
-        "reason": "Dissemination",
+        "reason": "Steps Towards Violence",
         "description": null
     },
     {
         "id": 60,
-        "reason": "Peer-Immersion",
+        "reason": "Information Seeking",
         "description": null
     },
     {
         "id": 61,
-        "reason": "",
+        "reason": "Desire for Action",
         "description": null
     },
     {
         "id": 62,
-        "reason": "Steps Towards Violence",
+        "reason": "Peer-Immersion",
         "description": null
     },
     {
         "id": 63,
-        "reason": "Steps Towards Violence",
+        "reason": "Peer-Immersion",
         "description": null
     },
     {
         "id": 64,
-        "reason": "Dissemination",
+        "reason": "Steps Towards Violence",
         "description": null
     },
     {
@@ -326,27 +326,27 @@
     },
     {
         "id": 66,
-        "reason": "Information Seeking",
-        "description": null
-    },
-    {
-        "id": 67,
         "reason": "Desire for Action",
         "description": null
     },
     {
-        "id": 68,
+        "id": 67,
         "reason": "Peer-Immersion",
+        "description": null
+    },
+    {
+        "id": 68,
+        "reason": "Steps Towards Violence",
         "description": null
     },
     {
         "id": 69,
-        "reason": "Peer-Immersion",
+        "reason": "Societal Disengagement",
         "description": null
     },
     {
         "id": 70,
-        "reason": "Steps Towards Violence",
+        "reason": "Desire for Action",
         "description": null
     },
     {
@@ -356,42 +356,17 @@
     },
     {
         "id": 72,
-        "reason": "Desire for Action",
+        "reason": "Steps Towards Violence",
         "description": null
     },
     {
         "id": 73,
-        "reason": "Dissemination",
+        "reason": "Desire for Action",
         "description": null
     },
     {
         "id": 74,
         "reason": "Steps Towards Violence",
-        "description": null
-    },
-    {
-        "id": 75,
-        "reason": "",
-        "description": null
-    },
-    {
-        "id": 76,
-        "reason": "Steps Towards Violence",
-        "description": null
-    },
-    {
-        "id": 77,
-        "reason": "Steps Towards Violence",
-        "description": null
-    },
-    {
-        "id": 78,
-        "reason": "Steps Towards Violence",
-        "description": null
-    },
-    {
-        "id": 79,
-        "reason": "Peer-Immersion",
         "description": null
     }
 ]

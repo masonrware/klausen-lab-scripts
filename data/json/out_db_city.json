@@ -442,35 +442,5 @@
         "city": "",
         "region": null,
         "country_id": 840
-    },
-    {
-        "id": 75,
-        "city": "",
-        "region": null,
-        "country_id": 840
-    },
-    {
-        "id": 76,
-        "city": "",
-        "region": null,
-        "country_id": 840
-    },
-    {
-        "id": 77,
-        "city": "",
-        "region": null,
-        "country_id": 840
-    },
-    {
-        "id": 78,
-        "city": "",
-        "region": null,
-        "country_id": 840
-    },
-    {
-        "id": 79,
-        "city": "",
-        "region": null,
-        "country_id": 840
     }
 ]

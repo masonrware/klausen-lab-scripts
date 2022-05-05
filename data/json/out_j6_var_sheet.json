@@ -587,7 +587,7 @@
         "legacy_id": "DE12",
         "legacy_id_num": 12,
         "person_name": "Stephanie Miller",
-        "nickname": "",
+        "nickname": "   ",
         "year_first_terror_le_contact": "2021",
         "year_born": "1990",
         "sex": "FEMALE",
@@ -905,7 +905,7 @@
         "legacy_id": "DE18",
         "legacy_id_num": 18,
         "person_name": "Shawn Price",
-        "nickname": "",
+        "nickname": "       ",
         "year_first_terror_le_contact": "2021",
         "year_born": "1995",
         "sex": "MALE",
@@ -1752,25 +1752,25 @@
         "id": 34,
         "legacy_id": "DE34",
         "legacy_id_num": 34,
-        "person_name": "Thomas Harlen Smith",
-        "nickname": "Mississippi Flag Guy",
+        "person_name": "Dona Sue Bissey",
+        "nickname": "",
         "year_first_terror_le_contact": "2021",
-        "year_born": "",
-        "sex": "MALE",
+        "year_born": "1969",
+        "sex": "FEMALE",
         "ethnicity_id": {
             "id": 34,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
         "native_born": "NATIVE",
-        "education": "",
-        "profression": "SERVICE/MANUAL WORKER",
-        "employed": "No",
+        "education": "TECHNICAL SCHOOL STUDENT/DEGREE",
+        "profression": "SELF-EMPLOYED",
+        "employed": "Yes",
         "year_radicalization": "2021",
         "hometown_id": {
             "id": 34,
-            "city": "Oktibbeha County",
-            "region": " Mississippi",
+            "city": "Bloomfield",
+            "region": " Indiana",
             "country_id": 840
         },
         "year_death": "",
@@ -1790,7 +1790,7 @@
         "foreign_ties": null,
         "activity": null,
         "sources": null,
-        "recent_status": "AWAITING TRIAL",
+        "recent_status": "CURRENTLY IN NON-WEST",
         "last_updated": null,
         "mugshot_file": null,
         "flec_reason": "ARRESTED",
@@ -1805,10 +1805,10 @@
         "id": 35,
         "legacy_id": "DE35",
         "legacy_id_num": 35,
-        "person_name": "Kenneth Rader",
+        "person_name": "Joshua Wagner",
         "nickname": "",
         "year_first_terror_le_contact": "2021",
-        "year_born": "1968",
+        "year_born": "1997",
         "sex": "MALE",
         "ethnicity_id": {
             "id": 35,
@@ -1816,14 +1816,14 @@
         },
         "immigration_status": "LEGAL",
         "native_born": "NATIVE",
-        "education": "",
+        "education": "HIGH SCHOOL STUDENT/DEGREE",
         "profression": "",
         "employed": "",
         "year_radicalization": "2021",
         "hometown_id": {
             "id": 35,
-            "city": "Sioux City",
-            "region": " Iowa",
+            "city": "Greenwood",
+            "region": " Indiana",
             "country_id": 840
         },
         "year_death": "",
@@ -1843,13 +1843,13 @@
         "foreign_ties": null,
         "activity": null,
         "sources": null,
-        "recent_status": "AWAITING TRIAL",
+        "recent_status": "MONITORED",
         "last_updated": null,
         "mugshot_file": null,
-        "flec_reason": "ARRESTED",
+        "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
             "id": 35,
-            "reason": "Dissemination",
+            "reason": "Steps Towards Violence",
             "description": null
         },
         "social_behavioral": ""
@@ -1858,10 +1858,10 @@
         "id": 36,
         "legacy_id": "DE36",
         "legacy_id_num": 36,
-        "person_name": "Bradley Wayne Weeks",
+        "person_name": "Mark Andrew Mazza",
         "nickname": "",
         "year_first_terror_le_contact": "2021",
-        "year_born": "1978",
+        "year_born": "1965",
         "sex": "MALE",
         "ethnicity_id": {
             "id": 36,
@@ -1869,14 +1869,14 @@
         },
         "immigration_status": "LEGAL",
         "native_born": "NATIVE",
-        "education": "COLLEGE STUDENT/DEGREE",
-        "profression": "IT PROFESSIONAL",
+        "education": "",
+        "profression": "MILITARY",
         "employed": "No",
         "year_radicalization": "2021",
         "hometown_id": {
             "id": 36,
-            "city": "Macclenny",
-            "region": " Florida",
+            "city": "Shelbyville",
+            "region": " Indiana",
             "country_id": 840
         },
         "year_death": "",
@@ -1911,10 +1911,10 @@
         "id": 37,
         "legacy_id": "DE37",
         "legacy_id_num": 37,
-        "person_name": "Matthew Loganbill",
-        "nickname": "",
+        "person_name": "Henry Phillip Muntzer",
+        "nickname": "Hank Muntzer",
         "year_first_terror_le_contact": "2021",
-        "year_born": "1966",
+        "year_born": "1969",
         "sex": "MALE",
         "ethnicity_id": {
             "id": 37,
@@ -1923,13 +1923,13 @@
         "immigration_status": "LEGAL",
         "native_born": "NATIVE",
         "education": "",
-        "profression": "SERVICE/MANUAL WORKER",
+        "profression": "SELF-EMPLOYED",
         "employed": "Yes",
         "year_radicalization": "2021",
         "hometown_id": {
             "id": 37,
-            "city": "Versailles",
-            "region": " Missouri",
+            "city": "Dillon",
+            "region": " Montana",
             "country_id": 840
         },
         "year_death": "",
@@ -1964,25 +1964,25 @@
         "id": 38,
         "legacy_id": "DE38",
         "legacy_id_num": 38,
-        "person_name": "Dona Sue Bissey",
-        "nickname": "",
+        "person_name": "Thomas Gallagher",
+        "nickname": "Thomas R. Gallagher, Tom",
         "year_first_terror_le_contact": "2021",
-        "year_born": "1969",
-        "sex": "FEMALE",
+        "year_born": "1959",
+        "sex": "MALE",
         "ethnicity_id": {
             "id": 38,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
         "native_born": "NATIVE",
-        "education": "TECHNICAL SCHOOL STUDENT/DEGREE",
-        "profression": "SELF-EMPLOYED",
-        "employed": "Yes",
+        "education": "COLLEGE STUDENT/DEGREE",
+        "profression": "MILITARY",
+        "employed": "No",
         "year_radicalization": "2021",
         "hometown_id": {
             "id": 38,
-            "city": "Bloomfield",
-            "region": " Indiana",
+            "city": "Springfield",
+            "region": " Massachusetts",
             "country_id": 840
         },
         "year_death": "",
@@ -2002,40 +2002,40 @@
         "foreign_ties": null,
         "activity": null,
         "sources": null,
-        "recent_status": "CURRENTLY IN NON-WEST",
+        "recent_status": "MONITORED",
         "last_updated": null,
         "mugshot_file": null,
-        "flec_reason": "ARRESTED",
+        "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
             "id": 38,
             "reason": "Steps Towards Violence",
             "description": null
         },
-        "social_behavioral": ""
+        "social_behavioral": "ADDICTION"
     },
     {
         "id": 39,
         "legacy_id": "DE39",
         "legacy_id_num": 39,
-        "person_name": "Joshua Wagner",
-        "nickname": "",
+        "person_name": "Jessica Bustle",
+        "nickname": "Jessica Stanley",
         "year_first_terror_le_contact": "2021",
-        "year_born": "1997",
-        "sex": "MALE",
+        "year_born": "1985",
+        "sex": "FEMALE",
         "ethnicity_id": {
             "id": 39,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
         "native_born": "NATIVE",
-        "education": "HIGH SCHOOL STUDENT/DEGREE",
+        "education": "",
         "profression": "",
-        "employed": "",
+        "employed": "No",
         "year_radicalization": "2021",
         "hometown_id": {
             "id": 39,
-            "city": "Greenwood",
-            "region": " Indiana",
+            "city": "Bristow",
+            "region": " Virginia",
             "country_id": 840
         },
         "year_death": "",
@@ -2058,7 +2058,7 @@
         "recent_status": "MONITORED",
         "last_updated": null,
         "mugshot_file": null,
-        "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
+        "flec_reason": "ARRESTED",
         "radicalization_reason_id": {
             "id": 39,
             "reason": "Steps Towards Violence",
@@ -2070,225 +2070,13 @@
         "id": 40,
         "legacy_id": "DE40",
         "legacy_id_num": 40,
-        "person_name": "Mark Andrew Mazza",
-        "nickname": "",
-        "year_first_terror_le_contact": "2021",
-        "year_born": "1965",
-        "sex": "MALE",
-        "ethnicity_id": {
-            "id": 40,
-            "ethnicity_name": "White-European"
-        },
-        "immigration_status": "LEGAL",
-        "native_born": "NATIVE",
-        "education": "",
-        "profression": "MILITARY",
-        "employed": "No",
-        "year_radicalization": "2021",
-        "hometown_id": {
-            "id": 40,
-            "city": "Shelbyville",
-            "region": " Indiana",
-            "country_id": 840
-        },
-        "year_death": "",
-        "cause_death": "",
-        "city_death_id": {
-            "id": 40,
-            "city": "",
-            "region": null,
-            "country_id": 840
-        },
-        "country_of_death": 840,
-        "status": null,
-        "plot": null,
-        "demographics": null,
-        "edu_occ": null,
-        "core_ideology": null,
-        "foreign_ties": null,
-        "activity": null,
-        "sources": null,
-        "recent_status": "AWAITING TRIAL",
-        "last_updated": null,
-        "mugshot_file": null,
-        "flec_reason": "ARRESTED",
-        "radicalization_reason_id": {
-            "id": 40,
-            "reason": "Steps Towards Violence",
-            "description": null
-        },
-        "social_behavioral": ""
-    },
-    {
-        "id": 41,
-        "legacy_id": "DE41",
-        "legacy_id_num": 41,
-        "person_name": "Henry Phillip Muntzer",
-        "nickname": "Hank Muntzer",
-        "year_first_terror_le_contact": "2021",
-        "year_born": "1969",
-        "sex": "MALE",
-        "ethnicity_id": {
-            "id": 41,
-            "ethnicity_name": "White-European"
-        },
-        "immigration_status": "LEGAL",
-        "native_born": "NATIVE",
-        "education": "",
-        "profression": "SELF-EMPLOYED",
-        "employed": "Yes",
-        "year_radicalization": "2021",
-        "hometown_id": {
-            "id": 41,
-            "city": "Dillon",
-            "region": " Montana",
-            "country_id": 840
-        },
-        "year_death": "",
-        "cause_death": "",
-        "city_death_id": {
-            "id": 41,
-            "city": "",
-            "region": null,
-            "country_id": 840
-        },
-        "country_of_death": 840,
-        "status": null,
-        "plot": null,
-        "demographics": null,
-        "edu_occ": null,
-        "core_ideology": null,
-        "foreign_ties": null,
-        "activity": null,
-        "sources": null,
-        "recent_status": "AWAITING TRIAL",
-        "last_updated": null,
-        "mugshot_file": null,
-        "flec_reason": "ARRESTED",
-        "radicalization_reason_id": {
-            "id": 41,
-            "reason": "Steps Towards Violence",
-            "description": null
-        },
-        "social_behavioral": ""
-    },
-    {
-        "id": 42,
-        "legacy_id": "DE42",
-        "legacy_id_num": 42,
-        "person_name": "Thomas Gallagher",
-        "nickname": "Thomas R. Gallagher, Tom",
-        "year_first_terror_le_contact": "2021",
-        "year_born": "1959",
-        "sex": "MALE",
-        "ethnicity_id": {
-            "id": 42,
-            "ethnicity_name": "White-European"
-        },
-        "immigration_status": "LEGAL",
-        "native_born": "NATIVE",
-        "education": "COLLEGE STUDENT/DEGREE",
-        "profression": "MILITARY",
-        "employed": "No",
-        "year_radicalization": "2021",
-        "hometown_id": {
-            "id": 42,
-            "city": "Springfield",
-            "region": " Massachusetts",
-            "country_id": 840
-        },
-        "year_death": "",
-        "cause_death": "",
-        "city_death_id": {
-            "id": 42,
-            "city": "",
-            "region": null,
-            "country_id": 840
-        },
-        "country_of_death": 840,
-        "status": null,
-        "plot": null,
-        "demographics": null,
-        "edu_occ": null,
-        "core_ideology": null,
-        "foreign_ties": null,
-        "activity": null,
-        "sources": null,
-        "recent_status": "MONITORED",
-        "last_updated": null,
-        "mugshot_file": null,
-        "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
-        "radicalization_reason_id": {
-            "id": 42,
-            "reason": "Steps Towards Violence",
-            "description": null
-        },
-        "social_behavioral": "ADDICTION"
-    },
-    {
-        "id": 43,
-        "legacy_id": "DE43",
-        "legacy_id_num": 43,
-        "person_name": "Jessica Bustle",
-        "nickname": "Jessica Stanley",
-        "year_first_terror_le_contact": "2021",
-        "year_born": "1985",
-        "sex": "FEMALE",
-        "ethnicity_id": {
-            "id": 43,
-            "ethnicity_name": "White-European"
-        },
-        "immigration_status": "LEGAL",
-        "native_born": "NATIVE",
-        "education": "",
-        "profression": "",
-        "employed": "No",
-        "year_radicalization": "2021",
-        "hometown_id": {
-            "id": 43,
-            "city": "Bristow",
-            "region": " Virginia",
-            "country_id": 840
-        },
-        "year_death": "",
-        "cause_death": "",
-        "city_death_id": {
-            "id": 43,
-            "city": "",
-            "region": null,
-            "country_id": 840
-        },
-        "country_of_death": 840,
-        "status": null,
-        "plot": null,
-        "demographics": null,
-        "edu_occ": null,
-        "core_ideology": null,
-        "foreign_ties": null,
-        "activity": null,
-        "sources": null,
-        "recent_status": "MONITORED",
-        "last_updated": null,
-        "mugshot_file": null,
-        "flec_reason": "ARRESTED",
-        "radicalization_reason_id": {
-            "id": 43,
-            "reason": "Steps Towards Violence",
-            "description": null
-        },
-        "social_behavioral": ""
-    },
-    {
-        "id": 44,
-        "legacy_id": "DE44",
-        "legacy_id_num": 44,
         "person_name": "Alan Hostetter",
         "nickname": "",
         "year_first_terror_le_contact": "2021",
         "year_born": "1965",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 44,
+            "id": 40,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -2298,7 +2086,7 @@
         "employed": "Yes",
         "year_radicalization": "2020",
         "hometown_id": {
-            "id": 44,
+            "id": 40,
             "city": "San Clemente",
             "region": " California",
             "country_id": 840
@@ -2306,7 +2094,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 44,
+            "id": 40,
             "city": "",
             "region": null,
             "country_id": 840
@@ -2325,23 +2113,23 @@
         "mugshot_file": null,
         "flec_reason": "SUSPECTED/SURVEILLED",
         "radicalization_reason_id": {
-            "id": 44,
+            "id": 40,
             "reason": "Desire for Action",
             "description": null
         },
         "social_behavioral": ""
     },
     {
-        "id": 45,
-        "legacy_id": "DE45",
-        "legacy_id_num": 45,
+        "id": 41,
+        "legacy_id": "DE41",
+        "legacy_id_num": 41,
         "person_name": "Kirstyn Niemela",
         "nickname": "",
         "year_first_terror_le_contact": "2021",
         "year_born": "1989",
         "sex": "FEMALE",
         "ethnicity_id": {
-            "id": 45,
+            "id": 41,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -2351,7 +2139,7 @@
         "employed": "",
         "year_radicalization": "",
         "hometown_id": {
-            "id": 45,
+            "id": 41,
             "city": "",
             "region": "",
             "country_id": 840
@@ -2359,7 +2147,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 45,
+            "id": 41,
             "city": "",
             "region": null,
             "country_id": 840
@@ -2378,23 +2166,23 @@
         "mugshot_file": null,
         "flec_reason": "ARRESTED",
         "radicalization_reason_id": {
-            "id": 45,
+            "id": 41,
             "reason": "",
             "description": null
         },
         "social_behavioral": ""
     },
     {
-        "id": 46,
-        "legacy_id": "DE46",
-        "legacy_id_num": 46,
+        "id": 42,
+        "legacy_id": "DE42",
+        "legacy_id_num": 42,
         "person_name": "Kelly Meggs",
         "nickname": "Ok Gator 1, Gator 1, kellymeggs",
         "year_first_terror_le_contact": "2020",
         "year_born": "1968",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 46,
+            "id": 42,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -2404,7 +2192,7 @@
         "employed": "Yes",
         "year_radicalization": "2009",
         "hometown_id": {
-            "id": 46,
+            "id": 42,
             "city": "Dunnellon",
             "region": " Florida",
             "country_id": 840
@@ -2412,7 +2200,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 46,
+            "id": 42,
             "city": "",
             "region": null,
             "country_id": 840
@@ -2431,23 +2219,23 @@
         "mugshot_file": null,
         "flec_reason": "TRAVELED TO/APPEARED IN KNOWN TERRORIST ZONE",
         "radicalization_reason_id": {
-            "id": 46,
+            "id": 42,
             "reason": "Peer-Immersion",
             "description": null
         },
         "social_behavioral": ""
     },
     {
-        "id": 47,
-        "legacy_id": "DE47",
-        "legacy_id_num": 47,
+        "id": 43,
+        "legacy_id": "DE43",
+        "legacy_id_num": 43,
         "person_name": "Darrell Alan Youngers",
         "nickname": "",
         "year_first_terror_le_contact": "2021",
         "year_born": "1989",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 47,
+            "id": 43,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -2457,7 +2245,7 @@
         "employed": "Yes",
         "year_radicalization": "2021",
         "hometown_id": {
-            "id": 47,
+            "id": 43,
             "city": "Cleveland",
             "region": " Texas",
             "country_id": 840
@@ -2465,7 +2253,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 47,
+            "id": 43,
             "city": "",
             "region": null,
             "country_id": 840
@@ -2484,23 +2272,23 @@
         "mugshot_file": null,
         "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
-            "id": 47,
+            "id": 43,
             "reason": "Steps Towards Violence",
             "description": null
         },
         "social_behavioral": ""
     },
     {
-        "id": 48,
-        "legacy_id": "DE48",
-        "legacy_id_num": 48,
+        "id": 44,
+        "legacy_id": "DE44",
+        "legacy_id_num": 44,
         "person_name": "Kenneth Joseph Owen Thomas",
         "nickname": "Pi Annon",
         "year_first_terror_le_contact": "2021",
         "year_born": "1983",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 48,
+            "id": 44,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -2510,7 +2298,7 @@
         "employed": "No",
         "year_radicalization": "2021",
         "hometown_id": {
-            "id": 48,
+            "id": 44,
             "city": "East Liverpool",
             "region": " Ohio",
             "country_id": 840
@@ -2518,7 +2306,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 48,
+            "id": 44,
             "city": "",
             "region": null,
             "country_id": 840
@@ -2537,23 +2325,23 @@
         "mugshot_file": null,
         "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
-            "id": 48,
+            "id": 44,
             "reason": "Steps Towards Violence",
             "description": null
         },
         "social_behavioral": ""
     },
     {
-        "id": 49,
-        "legacy_id": "DE49",
-        "legacy_id_num": 49,
+        "id": 45,
+        "legacy_id": "DE45",
+        "legacy_id_num": 45,
         "person_name": "Joshua Llolar",
         "nickname": "",
         "year_first_terror_le_contact": "2021",
         "year_born": "1982",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 49,
+            "id": 45,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -2563,7 +2351,7 @@
         "employed": "No",
         "year_radicalization": "2021",
         "hometown_id": {
-            "id": 49,
+            "id": 45,
             "city": "Spring",
             "region": " Texas",
             "country_id": 840
@@ -2571,7 +2359,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 49,
+            "id": 45,
             "city": "",
             "region": null,
             "country_id": 840
@@ -2590,23 +2378,23 @@
         "mugshot_file": null,
         "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
-            "id": 49,
+            "id": 45,
             "reason": "Steps Towards Violence",
             "description": null
         },
         "social_behavioral": "MENTAL"
     },
     {
-        "id": 50,
-        "legacy_id": "DE50",
-        "legacy_id_num": 50,
+        "id": 46,
+        "legacy_id": "DE46",
+        "legacy_id_num": 46,
         "person_name": "Joshua Pruitt",
         "nickname": "",
         "year_first_terror_le_contact": "2021",
         "year_born": "1982",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 50,
+            "id": 46,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -2616,7 +2404,7 @@
         "employed": "No",
         "year_radicalization": "2020",
         "hometown_id": {
-            "id": 50,
+            "id": 46,
             "city": "Washington D.C.",
             "region": "",
             "country_id": 840
@@ -2624,7 +2412,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 50,
+            "id": 46,
             "city": "",
             "region": null,
             "country_id": 840
@@ -2643,76 +2431,23 @@
         "mugshot_file": null,
         "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
-            "id": 50,
+            "id": 46,
             "reason": "Peer-Immersion",
             "description": null
         },
         "social_behavioral": "ADDICTION"
     },
     {
-        "id": 51,
-        "legacy_id": "DE51",
-        "legacy_id_num": 51,
-        "person_name": "John Clarence Wilkerson IV",
-        "nickname": "Jacew4",
-        "year_first_terror_le_contact": "2021",
-        "year_born": "",
-        "sex": "MALE",
-        "ethnicity_id": {
-            "id": 51,
-            "ethnicity_name": "White-European"
-        },
-        "immigration_status": "LEGAL",
-        "native_born": "NATIVE",
-        "education": "",
-        "profression": "",
-        "employed": "",
-        "year_radicalization": "",
-        "hometown_id": {
-            "id": 51,
-            "city": "Bel Air",
-            "region": " Maryland",
-            "country_id": 840
-        },
-        "year_death": "",
-        "cause_death": "",
-        "city_death_id": {
-            "id": 51,
-            "city": "",
-            "region": null,
-            "country_id": 840
-        },
-        "country_of_death": 840,
-        "status": null,
-        "plot": null,
-        "demographics": null,
-        "edu_occ": null,
-        "core_ideology": null,
-        "foreign_ties": null,
-        "activity": null,
-        "sources": null,
-        "recent_status": "AWAITING TRIAL",
-        "last_updated": null,
-        "mugshot_file": null,
-        "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
-        "radicalization_reason_id": {
-            "id": 51,
-            "reason": "",
-            "description": null
-        },
-        "social_behavioral": ""
-    },
-    {
-        "id": 52,
-        "legacy_id": "DE52",
-        "legacy_id_num": 52,
+        "id": 47,
+        "legacy_id": "DE47",
+        "legacy_id_num": 47,
         "person_name": "Anthony Puma",
         "nickname": "",
         "year_first_terror_le_contact": "2021",
         "year_born": "1972",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 52,
+            "id": 47,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -2722,7 +2457,7 @@
         "employed": "Yes",
         "year_radicalization": "2021",
         "hometown_id": {
-            "id": 52,
+            "id": 47,
             "city": "Brownstown Township",
             "region": " Michigan",
             "country_id": 840
@@ -2730,7 +2465,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 52,
+            "id": 47,
             "city": "",
             "region": null,
             "country_id": 840
@@ -2749,23 +2484,23 @@
         "mugshot_file": null,
         "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
-            "id": 52,
+            "id": 47,
             "reason": "Steps Towards Violence",
             "description": null
         },
         "social_behavioral": "ADDICTION"
     },
     {
-        "id": 53,
-        "legacy_id": "DE53",
-        "legacy_id_num": 53,
+        "id": 48,
+        "legacy_id": "DE48",
+        "legacy_id_num": 48,
         "person_name": "Kash Lee Kelly",
         "nickname": "#KashKelly",
         "year_first_terror_le_contact": "2021",
         "year_born": "1988",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 53,
+            "id": 48,
             "ethnicity_name": "African-American"
         },
         "immigration_status": "LEGAL",
@@ -2775,7 +2510,7 @@
         "employed": "",
         "year_radicalization": "",
         "hometown_id": {
-            "id": 53,
+            "id": 48,
             "city": "Hammond",
             "region": " Illinois",
             "country_id": 840
@@ -2783,7 +2518,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 53,
+            "id": 48,
             "city": "",
             "region": null,
             "country_id": 840
@@ -2802,23 +2537,23 @@
         "mugshot_file": null,
         "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
-            "id": 53,
+            "id": 48,
             "reason": "",
             "description": null
         },
         "social_behavioral": "ADDICTION"
     },
     {
-        "id": 54,
-        "legacy_id": "DE54",
-        "legacy_id_num": 54,
+        "id": 49,
+        "legacy_id": "DE49",
+        "legacy_id_num": 49,
         "person_name": "Daniel Lyons Scott",
         "nickname": "Milkshake",
         "year_first_terror_le_contact": "2021",
         "year_born": "1993",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 54,
+            "id": 49,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -2828,7 +2563,7 @@
         "employed": "",
         "year_radicalization": "2021",
         "hometown_id": {
-            "id": 54,
+            "id": 49,
             "city": "Bradenton",
             "region": " Florida",
             "country_id": 840
@@ -2836,7 +2571,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 54,
+            "id": 49,
             "city": "",
             "region": null,
             "country_id": 840
@@ -2855,23 +2590,23 @@
         "mugshot_file": null,
         "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
-            "id": 54,
+            "id": 49,
             "reason": "Steps Towards Violence",
             "description": null
         },
         "social_behavioral": ""
     },
     {
-        "id": 55,
-        "legacy_id": "DE55",
-        "legacy_id_num": 55,
+        "id": 50,
+        "legacy_id": "DE50",
+        "legacy_id_num": 50,
         "person_name": "Vicent Gillespie",
         "nickname": "",
         "year_first_terror_le_contact": "2021",
         "year_born": "1961",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 55,
+            "id": 50,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -2881,7 +2616,7 @@
         "employed": "No",
         "year_radicalization": "2005",
         "hometown_id": {
-            "id": 55,
+            "id": 50,
             "city": "Athol",
             "region": " Massachussetts",
             "country_id": 840
@@ -2889,7 +2624,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 55,
+            "id": 50,
             "city": "",
             "region": null,
             "country_id": 840
@@ -2908,76 +2643,23 @@
         "mugshot_file": null,
         "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
-            "id": 55,
+            "id": 50,
             "reason": "Dissemination",
             "description": null
         },
         "social_behavioral": ""
     },
     {
-        "id": 56,
-        "legacy_id": "DE56",
-        "legacy_id_num": 56,
-        "person_name": "Traci J. Sunstrum",
-        "nickname": "",
-        "year_first_terror_le_contact": "2021",
-        "year_born": "1977",
-        "sex": "FEMALE",
-        "ethnicity_id": {
-            "id": 56,
-            "ethnicity_name": "White-European"
-        },
-        "immigration_status": "LEGAL",
-        "native_born": "NATIVE",
-        "education": "",
-        "profression": "",
-        "employed": "",
-        "year_radicalization": "2021",
-        "hometown_id": {
-            "id": 56,
-            "city": "Amherst",
-            "region": " New York",
-            "country_id": 840
-        },
-        "year_death": "",
-        "cause_death": "",
-        "city_death_id": {
-            "id": 56,
-            "city": "",
-            "region": null,
-            "country_id": 840
-        },
-        "country_of_death": 840,
-        "status": null,
-        "plot": null,
-        "demographics": null,
-        "edu_occ": null,
-        "core_ideology": null,
-        "foreign_ties": null,
-        "activity": null,
-        "sources": null,
-        "recent_status": "CURRENTLY IN WEST",
-        "last_updated": null,
-        "mugshot_file": null,
-        "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
-        "radicalization_reason_id": {
-            "id": 56,
-            "reason": "Steps Towards Violence",
-            "description": null
-        },
-        "social_behavioral": ""
-    },
-    {
-        "id": 57,
-        "legacy_id": "DE57",
-        "legacy_id_num": 57,
+        "id": 51,
+        "legacy_id": "DE51",
+        "legacy_id_num": 51,
         "person_name": "David Mehaffie",
         "nickname": "#Tunnel Commander",
         "year_first_terror_le_contact": "1998",
         "year_born": "1959",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 57,
+            "id": 51,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -2987,7 +2669,7 @@
         "employed": "Yes",
         "year_radicalization": "1985",
         "hometown_id": {
-            "id": 57,
+            "id": 51,
             "city": "Dayton",
             "region": " Ohio",
             "country_id": 840
@@ -2995,7 +2677,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 57,
+            "id": 51,
             "city": "",
             "region": null,
             "country_id": 840
@@ -3014,23 +2696,23 @@
         "mugshot_file": null,
         "flec_reason": "ARREST/CAUTIONED AND RELEASED",
         "radicalization_reason_id": {
-            "id": 57,
+            "id": 51,
             "reason": "Peer-Immersion",
             "description": null
         },
         "social_behavioral": ""
     },
     {
-        "id": 58,
-        "legacy_id": "DE58",
-        "legacy_id_num": 58,
+        "id": 52,
+        "legacy_id": "DE52",
+        "legacy_id_num": 52,
         "person_name": "Dominic Pezzola",
         "nickname": "Spaz, Spazzo, Spazzolini",
         "year_first_terror_le_contact": "2021",
         "year_born": "1978",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 58,
+            "id": 52,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -3040,7 +2722,7 @@
         "employed": "No",
         "year_radicalization": "",
         "hometown_id": {
-            "id": 58,
+            "id": 52,
             "city": "Rochester",
             "region": " New York",
             "country_id": 840
@@ -3048,7 +2730,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 58,
+            "id": 52,
             "city": "",
             "region": null,
             "country_id": 840
@@ -3067,23 +2749,23 @@
         "mugshot_file": null,
         "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
-            "id": 58,
+            "id": 52,
             "reason": "Information Seeking",
             "description": null
         },
         "social_behavioral": ""
     },
     {
-        "id": 59,
-        "legacy_id": "DE59",
-        "legacy_id_num": 59,
+        "id": 53,
+        "legacy_id": "DE53",
+        "legacy_id_num": 53,
         "person_name": "Joseph Randall Biggs",
         "nickname": "Sergeant Biggs",
         "year_first_terror_le_contact": "2021",
         "year_born": "1984",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 59,
+            "id": 53,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -3093,7 +2775,7 @@
         "employed": "Yes",
         "year_radicalization": "2017",
         "hometown_id": {
-            "id": 59,
+            "id": 53,
             "city": "Ormond Beach",
             "region": " Florida",
             "country_id": 840
@@ -3101,7 +2783,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 59,
+            "id": 53,
             "city": "",
             "region": null,
             "country_id": 840
@@ -3120,23 +2802,23 @@
         "mugshot_file": null,
         "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
-            "id": 59,
+            "id": 53,
             "reason": "Dissemination",
             "description": null
         },
         "social_behavioral": "BOTH"
     },
     {
-        "id": 60,
-        "legacy_id": "DE60",
-        "legacy_id_num": 60,
+        "id": 54,
+        "legacy_id": "DE54",
+        "legacy_id_num": 54,
         "person_name": "Pamela Anne Hemphill",
         "nickname": "",
         "year_first_terror_le_contact": "2020",
         "year_born": "1954",
         "sex": "FEMALE",
         "ethnicity_id": {
-            "id": 60,
+            "id": 54,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -3146,7 +2828,7 @@
         "employed": "Yes",
         "year_radicalization": "2020",
         "hometown_id": {
-            "id": 60,
+            "id": 54,
             "city": "Boise",
             "region": " Idaho",
             "country_id": 840
@@ -3154,7 +2836,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 60,
+            "id": 54,
             "city": "",
             "region": null,
             "country_id": 840
@@ -3173,23 +2855,23 @@
         "mugshot_file": null,
         "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
-            "id": 60,
+            "id": 54,
             "reason": "Peer-Immersion",
             "description": null
         },
         "social_behavioral": ""
     },
     {
-        "id": 61,
-        "legacy_id": "DE61",
-        "legacy_id_num": 61,
+        "id": 55,
+        "legacy_id": "DE55",
+        "legacy_id_num": 55,
         "person_name": "Shane Jenkins",
         "nickname": "Shane Leedon Jenkins, shane.jenkins.7, redtattoo179",
         "year_first_terror_le_contact": "2021",
-        "year_born": "",
+        "year_born": "1977",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 61,
+            "id": 55,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -3197,9 +2879,9 @@
         "education": "COLLEGE STUDENT/DEGREE",
         "profression": "CARING SERVICE SECTOR",
         "employed": "Yes",
-        "year_radicalization": "",
+        "year_radicalization": "2020",
         "hometown_id": {
-            "id": 61,
+            "id": 55,
             "city": "North Richland Hills",
             "region": " Texas",
             "country_id": 840
@@ -3207,7 +2889,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 61,
+            "id": 55,
             "city": "",
             "region": null,
             "country_id": 840
@@ -3226,23 +2908,23 @@
         "mugshot_file": null,
         "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
-            "id": 61,
-            "reason": "",
+            "id": 55,
+            "reason": "Steps Towards Violence",
             "description": null
         },
         "social_behavioral": ""
     },
     {
-        "id": 62,
-        "legacy_id": "DE62",
-        "legacy_id_num": 62,
+        "id": 56,
+        "legacy_id": "DE56",
+        "legacy_id_num": 56,
         "person_name": "Joseph Quaglin",
         "nickname": "",
         "year_first_terror_le_contact": "2021",
         "year_born": "1985",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 62,
+            "id": 56,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -3252,7 +2934,7 @@
         "employed": "No",
         "year_radicalization": "2021",
         "hometown_id": {
-            "id": 62,
+            "id": 56,
             "city": "New Brunswick",
             "region": " New Jersey",
             "country_id": 840
@@ -3260,7 +2942,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 62,
+            "id": 56,
             "city": "",
             "region": null,
             "country_id": 840
@@ -3279,23 +2961,23 @@
         "mugshot_file": null,
         "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
-            "id": 62,
+            "id": 56,
             "reason": "Steps Towards Violence",
             "description": null
         },
         "social_behavioral": ""
     },
     {
-        "id": 63,
-        "legacy_id": "DE63",
-        "legacy_id_num": 63,
+        "id": 57,
+        "legacy_id": "DE57",
+        "legacy_id_num": 57,
         "person_name": "Luke Coffee",
         "nickname": "",
         "year_first_terror_le_contact": "2021",
         "year_born": "1980",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 63,
+            "id": 57,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -3305,7 +2987,7 @@
         "employed": "Yes",
         "year_radicalization": "2021",
         "hometown_id": {
-            "id": 63,
+            "id": 57,
             "city": "Dallas",
             "region": " Texas",
             "country_id": 840
@@ -3313,7 +2995,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 63,
+            "id": 57,
             "city": "",
             "region": null,
             "country_id": 840
@@ -3332,23 +3014,23 @@
         "mugshot_file": null,
         "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
-            "id": 63,
+            "id": 57,
             "reason": "Steps Towards Violence",
             "description": null
         },
         "social_behavioral": ""
     },
     {
-        "id": 64,
-        "legacy_id": "DE64",
-        "legacy_id_num": 64,
+        "id": 58,
+        "legacy_id": "DE58",
+        "legacy_id_num": 58,
         "person_name": "Jorden Robert Mink",
         "nickname": "",
         "year_first_terror_le_contact": "2021",
         "year_born": "1994",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 64,
+            "id": 58,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -3358,7 +3040,7 @@
         "employed": "",
         "year_radicalization": "2020",
         "hometown_id": {
-            "id": 64,
+            "id": 58,
             "city": "South Fayette",
             "region": " Pennsylvania",
             "country_id": 840
@@ -3366,7 +3048,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 64,
+            "id": 58,
             "city": "",
             "region": null,
             "country_id": 840
@@ -3385,23 +3067,23 @@
         "mugshot_file": null,
         "flec_reason": "ARRESTED",
         "radicalization_reason_id": {
-            "id": 64,
+            "id": 58,
             "reason": "Dissemination",
             "description": null
         },
         "social_behavioral": "ADDICTION"
     },
     {
-        "id": 65,
-        "legacy_id": "DE65",
-        "legacy_id_num": 65,
+        "id": 59,
+        "legacy_id": "DE59",
+        "legacy_id_num": 59,
         "person_name": "Cindy Sue Fitchett",
         "nickname": "",
         "year_first_terror_le_contact": "2021",
         "year_born": "1962",
         "sex": "FEMALE",
         "ethnicity_id": {
-            "id": 65,
+            "id": 59,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -3411,7 +3093,7 @@
         "employed": "",
         "year_radicalization": "2021",
         "hometown_id": {
-            "id": 65,
+            "id": 59,
             "city": "Cobbs Creek",
             "region": " Virginia",
             "country_id": 840
@@ -3419,7 +3101,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 65,
+            "id": 59,
             "city": "",
             "region": null,
             "country_id": 840
@@ -3438,23 +3120,23 @@
         "mugshot_file": null,
         "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
-            "id": 65,
+            "id": 59,
             "reason": "Steps Towards Violence",
             "description": null
         },
         "social_behavioral": ""
     },
     {
-        "id": 66,
-        "legacy_id": "DE66",
-        "legacy_id_num": 66,
+        "id": 60,
+        "legacy_id": "DE60",
+        "legacy_id_num": 60,
         "person_name": "Michael Oliveras",
         "nickname": "Mike",
         "year_first_terror_le_contact": "2021",
         "year_born": "1983",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 66,
+            "id": 60,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -3464,7 +3146,7 @@
         "employed": "Yes",
         "year_radicalization": "2020",
         "hometown_id": {
-            "id": 66,
+            "id": 60,
             "city": "Lindenwold",
             "region": " New Jersey",
             "country_id": 840
@@ -3472,7 +3154,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 66,
+            "id": 60,
             "city": "",
             "region": null,
             "country_id": 840
@@ -3491,23 +3173,23 @@
         "mugshot_file": null,
         "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
-            "id": 66,
+            "id": 60,
             "reason": "Information Seeking",
             "description": null
         },
         "social_behavioral": ""
     },
     {
-        "id": 67,
-        "legacy_id": "DE67",
-        "legacy_id_num": 67,
+        "id": 61,
+        "legacy_id": "DE61",
+        "legacy_id_num": 61,
         "person_name": "Kim Michael Sorgente",
         "nickname": "#BadSamaritanGrey",
         "year_first_terror_le_contact": "2020",
         "year_born": "1971",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 67,
+            "id": 61,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -3517,7 +3199,7 @@
         "employed": "",
         "year_radicalization": "2017",
         "hometown_id": {
-            "id": 67,
+            "id": 61,
             "city": "Santa Ana",
             "region": " California",
             "country_id": 840
@@ -3525,7 +3207,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 67,
+            "id": 61,
             "city": "",
             "region": null,
             "country_id": 840
@@ -3544,23 +3226,23 @@
         "mugshot_file": null,
         "flec_reason": "ARRESTED",
         "radicalization_reason_id": {
-            "id": 67,
+            "id": 61,
             "reason": "Desire for Action",
             "description": null
         },
         "social_behavioral": ""
     },
     {
-        "id": 68,
-        "legacy_id": "DE68",
-        "legacy_id_num": 68,
+        "id": 62,
+        "legacy_id": "DE62",
+        "legacy_id_num": 62,
         "person_name": "Charles Donohoe",
         "nickname": "",
         "year_first_terror_le_contact": "2021",
         "year_born": "1988",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 68,
+            "id": 62,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -3570,7 +3252,7 @@
         "employed": "No",
         "year_radicalization": "2018",
         "hometown_id": {
-            "id": 68,
+            "id": 62,
             "city": "Kernersville",
             "region": " North Carolina",
             "country_id": 840
@@ -3578,7 +3260,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 68,
+            "id": 62,
             "city": "",
             "region": null,
             "country_id": 840
@@ -3597,23 +3279,23 @@
         "mugshot_file": null,
         "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
-            "id": 68,
+            "id": 62,
             "reason": "Peer-Immersion",
             "description": null
         },
         "social_behavioral": ""
     },
     {
-        "id": 69,
-        "legacy_id": "DE69",
-        "legacy_id_num": 69,
+        "id": 63,
+        "legacy_id": "DE63",
+        "legacy_id_num": 63,
         "person_name": "Mark Sahady",
         "nickname": "",
         "year_first_terror_le_contact": "2021",
         "year_born": "1975",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 69,
+            "id": 63,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -3623,7 +3305,7 @@
         "employed": "Yes",
         "year_radicalization": "2017",
         "hometown_id": {
-            "id": 69,
+            "id": 63,
             "city": "Malden",
             "region": " Massachusetts",
             "country_id": 840
@@ -3631,7 +3313,7 @@
         "year_death": "",
         "cause_death": "",
         "city_death_id": {
-            "id": 69,
+            "id": 63,
             "city": "",
             "region": null,
             "country_id": 840
@@ -3650,23 +3332,23 @@
         "mugshot_file": null,
         "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
-            "id": 69,
+            "id": 63,
             "reason": "Peer-Immersion",
             "description": null
         },
         "social_behavioral": ""
     },
     {
-        "id": 70,
-        "legacy_id": "DE70",
-        "legacy_id_num": 70,
+        "id": 64,
+        "legacy_id": "DE64",
+        "legacy_id_num": 64,
         "person_name": "Peter Frances Stager",
         "nickname": "",
         "year_first_terror_le_contact": "2021",
         "year_born": "1979",
         "sex": "MALE",
         "ethnicity_id": {
-            "id": 70,
+            "id": 64,
             "ethnicity_name": "White-European"
         },
         "immigration_status": "LEGAL",
@@ -3676,9 +3358,327 @@
         "employed": "",
         "year_radicalization": "2021",
         "hometown_id": {
-            "id": 70,
+            "id": 64,
             "city": "Conway",
             "region": " Arkansas",
+            "country_id": 840
+        },
+        "year_death": "",
+        "cause_death": "",
+        "city_death_id": {
+            "id": 64,
+            "city": "",
+            "region": null,
+            "country_id": 840
+        },
+        "country_of_death": 840,
+        "status": null,
+        "plot": null,
+        "demographics": null,
+        "edu_occ": null,
+        "core_ideology": null,
+        "foreign_ties": null,
+        "activity": null,
+        "sources": null,
+        "recent_status": "AWAITING TRIAL",
+        "last_updated": null,
+        "mugshot_file": null,
+        "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
+        "radicalization_reason_id": {
+            "id": 64,
+            "reason": "Steps Towards Violence",
+            "description": null
+        },
+        "social_behavioral": ""
+    },
+    {
+        "id": 65,
+        "legacy_id": "DE65",
+        "legacy_id_num": 65,
+        "person_name": "Jeremy Brown",
+        "nickname": "",
+        "year_first_terror_le_contact": "2021",
+        "year_born": "1975",
+        "sex": "MALE",
+        "ethnicity_id": {
+            "id": 65,
+            "ethnicity_name": "White-European"
+        },
+        "immigration_status": "LEGAL",
+        "native_born": "NATIVE",
+        "education": "HIGH SCHOOL STUDENT/DEGREE",
+        "profression": "MILITARY",
+        "employed": "No",
+        "year_radicalization": "2021",
+        "hometown_id": {
+            "id": 65,
+            "city": "Tampa",
+            "region": " Florida",
+            "country_id": 840
+        },
+        "year_death": "",
+        "cause_death": "",
+        "city_death_id": {
+            "id": 65,
+            "city": "",
+            "region": null,
+            "country_id": 840
+        },
+        "country_of_death": 840,
+        "status": null,
+        "plot": null,
+        "demographics": null,
+        "edu_occ": null,
+        "core_ideology": null,
+        "foreign_ties": null,
+        "activity": null,
+        "sources": null,
+        "recent_status": "AWAITING TRIAL",
+        "last_updated": null,
+        "mugshot_file": null,
+        "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
+        "radicalization_reason_id": {
+            "id": 65,
+            "reason": "Steps Towards Violence",
+            "description": null
+        },
+        "social_behavioral": ""
+    },
+    {
+        "id": 66,
+        "legacy_id": "DE66",
+        "legacy_id_num": 66,
+        "person_name": "Corinne Montoni",
+        "nickname": "",
+        "year_first_terror_le_contact": "2021",
+        "year_born": "1990",
+        "sex": "FEMALE",
+        "ethnicity_id": {
+            "id": 66,
+            "ethnicity_name": "White-European"
+        },
+        "immigration_status": "LEGAL",
+        "native_born": "NATIVE",
+        "education": "",
+        "profression": "",
+        "employed": "",
+        "year_radicalization": "2020",
+        "hometown_id": {
+            "id": 66,
+            "city": "Lakeland",
+            "region": " Florida",
+            "country_id": 840
+        },
+        "year_death": "",
+        "cause_death": "",
+        "city_death_id": {
+            "id": 66,
+            "city": "",
+            "region": null,
+            "country_id": 840
+        },
+        "country_of_death": 840,
+        "status": null,
+        "plot": null,
+        "demographics": null,
+        "edu_occ": null,
+        "core_ideology": null,
+        "foreign_ties": null,
+        "activity": null,
+        "sources": null,
+        "recent_status": "AWAITING TRIAL",
+        "last_updated": null,
+        "mugshot_file": null,
+        "flec_reason": "ARRESTED",
+        "radicalization_reason_id": {
+            "id": 66,
+            "reason": "Desire for Action",
+            "description": null
+        },
+        "social_behavioral": ""
+    },
+    {
+        "id": 67,
+        "legacy_id": "DE67",
+        "legacy_id_num": 67,
+        "person_name": "Laura Steele",
+        "nickname": "",
+        "year_first_terror_le_contact": "2021",
+        "year_born": "1969",
+        "sex": "FEMALE",
+        "ethnicity_id": {
+            "id": 67,
+            "ethnicity_name": "White-European"
+        },
+        "immigration_status": "LEGAL",
+        "native_born": "NATIVE",
+        "education": "",
+        "profression": "POLICE/PRIVATE SECURITY",
+        "employed": "Yes",
+        "year_radicalization": "2020",
+        "hometown_id": {
+            "id": 67,
+            "city": "Thomasville",
+            "region": " North Carolina",
+            "country_id": 840
+        },
+        "year_death": "",
+        "cause_death": "",
+        "city_death_id": {
+            "id": 67,
+            "city": "",
+            "region": null,
+            "country_id": 840
+        },
+        "country_of_death": 840,
+        "status": null,
+        "plot": null,
+        "demographics": null,
+        "edu_occ": null,
+        "core_ideology": null,
+        "foreign_ties": null,
+        "activity": null,
+        "sources": null,
+        "recent_status": "AWAITING TRIAL",
+        "last_updated": null,
+        "mugshot_file": null,
+        "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
+        "radicalization_reason_id": {
+            "id": 67,
+            "reason": "Peer-Immersion",
+            "description": null
+        },
+        "social_behavioral": ""
+    },
+    {
+        "id": 68,
+        "legacy_id": "DE68",
+        "legacy_id_num": 68,
+        "person_name": "Scott Fairlamb",
+        "nickname": "",
+        "year_first_terror_le_contact": "2021",
+        "year_born": "1977",
+        "sex": "MALE",
+        "ethnicity_id": {
+            "id": 68,
+            "ethnicity_name": "White-European"
+        },
+        "immigration_status": "LEGAL",
+        "native_born": "NATIVE",
+        "education": "",
+        "profression": "SELF-EMPLOYED",
+        "employed": "Yes",
+        "year_radicalization": "2021",
+        "hometown_id": {
+            "id": 68,
+            "city": "Stockholm",
+            "region": " New Jersey",
+            "country_id": 840
+        },
+        "year_death": "",
+        "cause_death": "",
+        "city_death_id": {
+            "id": 68,
+            "city": "",
+            "region": null,
+            "country_id": 840
+        },
+        "country_of_death": 840,
+        "status": null,
+        "plot": null,
+        "demographics": null,
+        "edu_occ": null,
+        "core_ideology": null,
+        "foreign_ties": null,
+        "activity": null,
+        "sources": null,
+        "recent_status": "INCARCERATED",
+        "last_updated": null,
+        "mugshot_file": null,
+        "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
+        "radicalization_reason_id": {
+            "id": 68,
+            "reason": "Steps Towards Violence",
+            "description": null
+        },
+        "social_behavioral": ""
+    },
+    {
+        "id": 69,
+        "legacy_id": "DE69",
+        "legacy_id_num": 69,
+        "person_name": "Thomas Baranyi",
+        "nickname": "Tommy",
+        "year_first_terror_le_contact": "2021",
+        "year_born": "1992",
+        "sex": "MALE",
+        "ethnicity_id": {
+            "id": 69,
+            "ethnicity_name": "White-European"
+        },
+        "immigration_status": "LEGAL",
+        "native_born": "NATIVE",
+        "education": "COLLEGE STUDENT/DEGREE",
+        "profression": "MILITARY",
+        "employed": "",
+        "year_radicalization": "2011",
+        "hometown_id": {
+            "id": 69,
+            "city": "Hamilton",
+            "region": " New Jersey",
+            "country_id": 840
+        },
+        "year_death": "",
+        "cause_death": "",
+        "city_death_id": {
+            "id": 69,
+            "city": "",
+            "region": null,
+            "country_id": 840
+        },
+        "country_of_death": 840,
+        "status": null,
+        "plot": null,
+        "demographics": null,
+        "edu_occ": null,
+        "core_ideology": null,
+        "foreign_ties": null,
+        "activity": null,
+        "sources": null,
+        "recent_status": "AWAITING TRIAL",
+        "last_updated": null,
+        "mugshot_file": null,
+        "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
+        "radicalization_reason_id": {
+            "id": 69,
+            "reason": "Societal Disengagement",
+            "description": null
+        },
+        "social_behavioral": ""
+    },
+    {
+        "id": 70,
+        "legacy_id": "DE70",
+        "legacy_id_num": 70,
+        "person_name": "Roberto Minuta",
+        "nickname": "",
+        "year_first_terror_le_contact": "2021",
+        "year_born": "",
+        "sex": "MALE",
+        "ethnicity_id": {
+            "id": 70,
+            "ethnicity_name": "White-European"
+        },
+        "immigration_status": "LEGAL",
+        "native_born": "NATIVE",
+        "education": "HIGH SCHOOL STUDENT/DEGREE",
+        "profression": "OTHER",
+        "employed": "Yes",
+        "year_radicalization": "2020",
+        "hometown_id": {
+            "id": 70,
+            "city": "Newburgh",
+            "region": " New York",
             "country_id": 840
         },
         "year_death": "",
@@ -3704,7 +3704,7 @@
         "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
             "id": 70,
-            "reason": "Steps Towards Violence",
+            "reason": "Desire for Action",
             "description": null
         },
         "social_behavioral": ""
@@ -3713,10 +3713,10 @@
         "id": 71,
         "legacy_id": "DE71",
         "legacy_id_num": 71,
-        "person_name": "Jeremy Brown",
+        "person_name": "Joseph Wayne Fischer",
         "nickname": "",
         "year_first_terror_le_contact": "2021",
-        "year_born": "1975",
+        "year_born": "1966",
         "sex": "MALE",
         "ethnicity_id": {
             "id": 71,
@@ -3724,14 +3724,14 @@
         },
         "immigration_status": "LEGAL",
         "native_born": "NATIVE",
-        "education": "HIGH SCHOOL STUDENT/DEGREE",
-        "profression": "MILITARY",
-        "employed": "No",
+        "education": "",
+        "profression": "POLICE/PRIVATE SECURITY",
+        "employed": "Yes",
         "year_radicalization": "2021",
         "hometown_id": {
             "id": 71,
-            "city": "Tampa",
-            "region": " Florida",
+            "city": "Jonestown",
+            "region": " Pennsylvania",
             "country_id": 840
         },
         "year_death": "",
@@ -3766,11 +3766,11 @@
         "id": 72,
         "legacy_id": "DE72",
         "legacy_id_num": 72,
-        "person_name": "Corinne Montoni",
+        "person_name": "Jordan Stotts",
         "nickname": "",
         "year_first_terror_le_contact": "2021",
-        "year_born": "1990",
-        "sex": "FEMALE",
+        "year_born": "1989",
+        "sex": "MALE",
         "ethnicity_id": {
             "id": 72,
             "ethnicity_name": "White-European"
@@ -3778,13 +3778,13 @@
         "immigration_status": "LEGAL",
         "native_born": "NATIVE",
         "education": "",
-        "profression": "",
-        "employed": "",
-        "year_radicalization": "2020",
+        "profression": "SERVICE/MANUAL WORKER",
+        "employed": "No",
+        "year_radicalization": "2021",
         "hometown_id": {
             "id": 72,
-            "city": "Lakeland",
-            "region": " Florida",
+            "city": "Moorhead",
+            "region": " Minnesota",
             "country_id": 840
         },
         "year_death": "",
@@ -3804,40 +3804,40 @@
         "foreign_ties": null,
         "activity": null,
         "sources": null,
-        "recent_status": "AWAITING TRIAL",
+        "recent_status": "MONITORED",
         "last_updated": null,
         "mugshot_file": null,
-        "flec_reason": "ARRESTED",
+        "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
             "id": 72,
-            "reason": "Desire for Action",
+            "reason": "Steps Towards Violence",
             "description": null
         },
-        "social_behavioral": ""
+        "social_behavioral": "ADDICTION"
     },
     {
         "id": 73,
         "legacy_id": "DE73",
         "legacy_id_num": 73,
-        "person_name": "Jason Gerding",
-        "nickname": "",
-        "year_first_terror_le_contact": "2021",
-        "year_born": "1971",
-        "sex": "MALE",
+        "person_name": "Rasha Abual-Ragheb",
+        "nickname": "Rasha Abu",
+        "year_first_terror_le_contact": "2020",
+        "year_born": "1981",
+        "sex": "FEMALE",
         "ethnicity_id": {
             "id": 73,
-            "ethnicity_name": "White-European"
+            "ethnicity_name": "Lebanese"
         },
         "immigration_status": "LEGAL",
-        "native_born": "NATIVE",
+        "native_born": "IMMIGRANT",
         "education": "",
         "profression": "",
         "employed": "",
         "year_radicalization": "2020",
         "hometown_id": {
             "id": 73,
-            "city": "Quincy",
-            "region": " Illinois",
+            "city": "Fairfield",
+            "region": " New Jersey",
             "country_id": 840
         },
         "year_death": "",
@@ -3857,13 +3857,13 @@
         "foreign_ties": null,
         "activity": null,
         "sources": null,
-        "recent_status": "AWAITING TRIAL",
+        "recent_status": "MONITORED",
         "last_updated": null,
         "mugshot_file": null,
-        "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
+        "flec_reason": "SUSPECTED/SURVEILLED",
         "radicalization_reason_id": {
             "id": 73,
-            "reason": "Dissemination",
+            "reason": "Desire for Action",
             "description": null
         },
         "social_behavioral": ""
@@ -3872,10 +3872,10 @@
         "id": 74,
         "legacy_id": "DE74",
         "legacy_id_num": 74,
-        "person_name": "Jeremy Grace",
+        "person_name": "Paul Gray Colbath",
         "nickname": "",
         "year_first_terror_le_contact": "2021",
-        "year_born": "1984",
+        "year_born": "1957",
         "sex": "MALE",
         "ethnicity_id": {
             "id": 74,
@@ -3883,14 +3883,14 @@
         },
         "immigration_status": "LEGAL",
         "native_born": "NATIVE",
-        "education": "",
-        "profression": "",
+        "education": "HIGH SCHOOL STUDENT/DEGREE",
+        "profression": "MILITARY",
         "employed": "",
         "year_radicalization": "2021",
         "hometown_id": {
             "id": 74,
-            "city": "Battle Ground",
-            "region": " Washington",
+            "city": "Fort Mill",
+            "region": " South Carolina",
             "country_id": 840
         },
         "year_death": "",
@@ -3910,278 +3910,13 @@
         "foreign_ties": null,
         "activity": null,
         "sources": null,
-        "recent_status": "AWAITING TRIAL",
+        "recent_status": "MONITORED",
         "last_updated": null,
         "mugshot_file": null,
         "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
         "radicalization_reason_id": {
             "id": 74,
             "reason": "Steps Towards Violence",
-            "description": null
-        },
-        "social_behavioral": ""
-    },
-    {
-        "id": 75,
-        "legacy_id": "DE75",
-        "legacy_id_num": 75,
-        "person_name": "Barton Wade Shively",
-        "nickname": "",
-        "year_first_terror_le_contact": "2021",
-        "year_born": "",
-        "sex": "",
-        "ethnicity_id": {
-            "id": 75,
-            "ethnicity_name": ""
-        },
-        "immigration_status": "",
-        "native_born": "",
-        "education": "",
-        "profression": "",
-        "employed": "",
-        "year_radicalization": "",
-        "hometown_id": {
-            "id": 75,
-            "city": "",
-            "region": "",
-            "country_id": 840
-        },
-        "year_death": "",
-        "cause_death": "",
-        "city_death_id": {
-            "id": 75,
-            "city": "",
-            "region": null,
-            "country_id": 840
-        },
-        "country_of_death": 840,
-        "status": null,
-        "plot": null,
-        "demographics": null,
-        "edu_occ": null,
-        "core_ideology": null,
-        "foreign_ties": null,
-        "activity": null,
-        "sources": null,
-        "recent_status": "AWAITING TRIAL",
-        "last_updated": null,
-        "mugshot_file": null,
-        "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
-        "radicalization_reason_id": {
-            "id": 75,
-            "reason": "",
-            "description": null
-        },
-        "social_behavioral": ""
-    },
-    {
-        "id": 76,
-        "legacy_id": "DE76",
-        "legacy_id_num": 76,
-        "person_name": "Jeffery Grace",
-        "nickname": "",
-        "year_first_terror_le_contact": "2021",
-        "year_born": "1959",
-        "sex": "MALE",
-        "ethnicity_id": {
-            "id": 76,
-            "ethnicity_name": "White-European"
-        },
-        "immigration_status": "LEGAL",
-        "native_born": "NATIVE",
-        "education": "",
-        "profression": "",
-        "employed": "",
-        "year_radicalization": "2021",
-        "hometown_id": {
-            "id": 76,
-            "city": "Battle Ground",
-            "region": " Washington",
-            "country_id": 840
-        },
-        "year_death": "",
-        "cause_death": "",
-        "city_death_id": {
-            "id": 76,
-            "city": "",
-            "region": null,
-            "country_id": 840
-        },
-        "country_of_death": 840,
-        "status": null,
-        "plot": null,
-        "demographics": null,
-        "edu_occ": null,
-        "core_ideology": null,
-        "foreign_ties": null,
-        "activity": null,
-        "sources": null,
-        "recent_status": "AWAITING TRIAL",
-        "last_updated": null,
-        "mugshot_file": null,
-        "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
-        "radicalization_reason_id": {
-            "id": 76,
-            "reason": "Steps Towards Violence",
-            "description": null
-        },
-        "social_behavioral": ""
-    },
-    {
-        "id": 77,
-        "legacy_id": "DE77",
-        "legacy_id_num": 77,
-        "person_name": "Jean Lavin",
-        "nickname": "",
-        "year_first_terror_le_contact": "2021",
-        "year_born": "1964",
-        "sex": "FEMALE",
-        "ethnicity_id": {
-            "id": 77,
-            "ethnicity_name": "White-European"
-        },
-        "immigration_status": "LEGAL",
-        "native_born": "NATIVE",
-        "education": "",
-        "profression": "",
-        "employed": "",
-        "year_radicalization": "2021",
-        "hometown_id": {
-            "id": 77,
-            "city": "Canterbury",
-            "region": " Connecticut",
-            "country_id": 840
-        },
-        "year_death": "",
-        "cause_death": "",
-        "city_death_id": {
-            "id": 77,
-            "city": "",
-            "region": null,
-            "country_id": 840
-        },
-        "country_of_death": 840,
-        "status": null,
-        "plot": null,
-        "demographics": null,
-        "edu_occ": null,
-        "core_ideology": null,
-        "foreign_ties": null,
-        "activity": null,
-        "sources": null,
-        "recent_status": "IN DETENTION",
-        "last_updated": null,
-        "mugshot_file": null,
-        "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
-        "radicalization_reason_id": {
-            "id": 77,
-            "reason": "Steps Towards Violence",
-            "description": null
-        },
-        "social_behavioral": ""
-    },
-    {
-        "id": 78,
-        "legacy_id": "DE78",
-        "legacy_id_num": 78,
-        "person_name": "Matthew Buckler",
-        "nickname": "mbuckler5",
-        "year_first_terror_le_contact": "2021",
-        "year_born": "",
-        "sex": "MALE",
-        "ethnicity_id": {
-            "id": 78,
-            "ethnicity_name": ""
-        },
-        "immigration_status": "LEGAL",
-        "native_born": "NATIVE",
-        "education": "COLLEGE STUDENT/DEGREE",
-        "profression": "",
-        "employed": "",
-        "year_radicalization": "2021",
-        "hometown_id": {
-            "id": 78,
-            "city": "La Plata",
-            "region": " Maryland",
-            "country_id": 840
-        },
-        "year_death": "",
-        "cause_death": "",
-        "city_death_id": {
-            "id": 78,
-            "city": "",
-            "region": null,
-            "country_id": 840
-        },
-        "country_of_death": 840,
-        "status": null,
-        "plot": null,
-        "demographics": null,
-        "edu_occ": null,
-        "core_ideology": null,
-        "foreign_ties": null,
-        "activity": null,
-        "sources": null,
-        "recent_status": "AWAITING TRIAL",
-        "last_updated": null,
-        "mugshot_file": null,
-        "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
-        "radicalization_reason_id": {
-            "id": 78,
-            "reason": "Steps Towards Violence",
-            "description": null
-        },
-        "social_behavioral": ""
-    },
-    {
-        "id": 79,
-        "legacy_id": "DE79",
-        "legacy_id_num": 79,
-        "person_name": "Laura Steele",
-        "nickname": "",
-        "year_first_terror_le_contact": "2021",
-        "year_born": "1969",
-        "sex": "FEMALE",
-        "ethnicity_id": {
-            "id": 79,
-            "ethnicity_name": "White-European"
-        },
-        "immigration_status": "LEGAL",
-        "native_born": "NATIVE",
-        "education": "",
-        "profression": "POLICE/PRIVATE SECURITY",
-        "employed": "Yes",
-        "year_radicalization": "2020",
-        "hometown_id": {
-            "id": 79,
-            "city": "Thomasville",
-            "region": " North Carolina",
-            "country_id": 840
-        },
-        "year_death": "",
-        "cause_death": "",
-        "city_death_id": {
-            "id": 79,
-            "city": "",
-            "region": null,
-            "country_id": 840
-        },
-        "country_of_death": 840,
-        "status": null,
-        "plot": null,
-        "demographics": null,
-        "edu_occ": null,
-        "core_ideology": null,
-        "foreign_ties": null,
-        "activity": null,
-        "sources": null,
-        "recent_status": "AWAITING TRIAL",
-        "last_updated": null,
-        "mugshot_file": null,
-        "flec_reason": "ATTEMPTED/CARRIED OUT AN ATTACK",
-        "radicalization_reason_id": {
-            "id": 79,
-            "reason": "Peer-Immersion",
             "description": null
         },
         "social_behavioral": ""

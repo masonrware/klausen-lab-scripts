@@ -442,35 +442,5 @@
         "citizenship_type": "PRIMARY",
         "country_id": 840,
         "de_person_id": 74
-    },
-    {
-        "id": 75,
-        "citizenship_type": "PRIMARY",
-        "country_id": 840,
-        "de_person_id": 75
-    },
-    {
-        "id": 76,
-        "citizenship_type": "PRIMARY",
-        "country_id": 840,
-        "de_person_id": 76
-    },
-    {
-        "id": 77,
-        "citizenship_type": "PRIMARY",
-        "country_id": 840,
-        "de_person_id": 77
-    },
-    {
-        "id": 78,
-        "citizenship_type": "PRIMARY",
-        "country_id": 840,
-        "de_person_id": 78
-    },
-    {
-        "id": 79,
-        "citizenship_type": "PRIMARY",
-        "country_id": 840,
-        "de_person_id": 79
     }
 ]

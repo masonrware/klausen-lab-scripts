@@ -480,7 +480,7 @@
         "de_person_id": 40
     },
     {
-        "arrest_year": "2021",
+        "arrest_year": "",
         "arrest_country_id": 840,
         "arrest_outcome": null,
         "sentence_year": null,
@@ -528,7 +528,7 @@
         "de_person_id": 44
     },
     {
-        "arrest_year": "",
+        "arrest_year": "2021",
         "arrest_country_id": 840,
         "arrest_outcome": null,
         "sentence_year": null,
@@ -588,7 +588,7 @@
         "de_person_id": 49
     },
     {
-        "arrest_year": "2021",
+        "arrest_year": "2022",
         "arrest_country_id": 840,
         "arrest_outcome": null,
         "sentence_year": null,
@@ -648,7 +648,7 @@
         "de_person_id": 54
     },
     {
-        "arrest_year": "2022",
+        "arrest_year": "2021",
         "arrest_country_id": 840,
         "arrest_outcome": null,
         "sentence_year": null,
@@ -886,65 +886,5 @@
         "life_sentence": null,
         "death_sentence": null,
         "de_person_id": 74
-    },
-    {
-        "arrest_year": "",
-        "arrest_country_id": 840,
-        "arrest_outcome": null,
-        "sentence_year": null,
-        "sentence_country_id": null,
-        "sentence_type": null,
-        "sentence_length": null,
-        "life_sentence": null,
-        "death_sentence": null,
-        "de_person_id": 75
-    },
-    {
-        "arrest_year": "2021",
-        "arrest_country_id": 840,
-        "arrest_outcome": null,
-        "sentence_year": null,
-        "sentence_country_id": null,
-        "sentence_type": null,
-        "sentence_length": null,
-        "life_sentence": null,
-        "death_sentence": null,
-        "de_person_id": 76
-    },
-    {
-        "arrest_year": "2021",
-        "arrest_country_id": 840,
-        "arrest_outcome": null,
-        "sentence_year": null,
-        "sentence_country_id": null,
-        "sentence_type": null,
-        "sentence_length": null,
-        "life_sentence": null,
-        "death_sentence": null,
-        "de_person_id": 77
-    },
-    {
-        "arrest_year": "2021",
-        "arrest_country_id": 840,
-        "arrest_outcome": null,
-        "sentence_year": null,
-        "sentence_country_id": null,
-        "sentence_type": null,
-        "sentence_length": null,
-        "life_sentence": null,
-        "death_sentence": null,
-        "de_person_id": 78
-    },
-    {
-        "arrest_year": "2021",
-        "arrest_country_id": 840,
-        "arrest_outcome": null,
-        "sentence_year": null,
-        "sentence_country_id": null,
-        "sentence_type": null,
-        "sentence_length": null,
-        "life_sentence": null,
-        "death_sentence": null,
-        "de_person_id": 79
     }
 ]
