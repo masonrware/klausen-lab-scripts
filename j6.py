@@ -73,65 +73,85 @@ class File:
                 # cleaning
                 if not rows['Hometown']:
                     rows['Hometown'] = ","
-                    
+                
+                j=7884
+
                 self.j6_var_sheet_data.append({
-                    'id': i+1,
-                    'legacy_id': 'DE' + str(i+1),
-                    'legacy_id_num': i+1,
+                    'id': j+1,
+                    'legacy_id': 'DE' + str(j+1),
+                    'legacy_id_num': j+1,
                     'person_name': rows['Name'],
                     'nickname': rows['Alias'],
-                    # 'terrorist_type':,            ?
-                    # 'criminal_type':,             ?
+                    'terrorist_type': 'JANUARY 6',                  # ?
+                    'criminal_type': 'JANUARY 6',            # ?
                     'year_first_terror_le_contact': rows['Year of First Terror-Related Law Enforcement Contact'],
                     'year_born': rows['Year Born'],
                     'sex': rows['Sex'],
-                    'ethnicity_id': {
-                        'id': i+1,
-                        'ethnicity_name': rows['Ethnicity']
-                    },
+
+                    'db_ethnicity_ethinicity_name': rows['Ethnicity'],
+                    # 'ethnicity_id': {
+                    #     # 'id': j+1,
+                    #     'ethnicity_name': rows['Ethnicity']
+                    # },
                     'immigration_status': rows['Immigration Status'],
                     'native_born': rows['Native Born'],
+                    'naturalized': None,
+                    'asylum_seeker': None,
                     'education': rows['Education'],
                     'profression': rows['Profession'], 
                     'employed': rows['Employed'],
+                    'suicide_status': None,
                     'year_radicalization': rows['Year Radicalized'],
-                    'hometown_id': {
-                        'id': i+1,
-                        'city': rows['Hometown'].split(',')[0],
-                        'region': rows['Hometown'].split(',')[1],
-                        'country_id': 840,
-                    },                                                          # this needs to be sent to db_city
+                    'west_residence_id': None,
+                    'db_city_hometown_city': rows['Hometown'].split(',')[0],
+                    'db_city_hometown_region': rows['Hometown'].split(',')[1],
+                    'db_city_hometown_country_id': 840,
+                    # 'hometown_id': {
+                    #     # 'id': i+1,
+                    #     'city': rows['Hometown'].split(',')[0],
+                    #     'region': rows['Hometown'].split(',')[1],
+                    #     'country_id': 840,
+                    # },                                                          # this needs to be sent to db_city
                     'year_death': rows['Year of Death'],
                     'cause_death': rows['Cause of Death'],
-                    'city_death_id': {
-                        'id': i+1,
-                        'city': rows['City of Death'].split(',')[0],
-                        'region': None,
-                        'country_id': 840, 
-                    },                                                          # this needs to be sent to db_city
-                    'country_of_death': 840,                                    # this needs to be sent to db_country
+
+                    'db_city_death_city': rows['City of Death'].split(',')[0],
+                    'db_city_death_region': None,
+                    'db_city_death_country_id': 840,
+                    # 'city_death_id': {
+                    #     # 'id': i+1,
+                    #     'city': rows['City of Death'].split(',')[0],
+                    #     'region': None,
+                    #     'country_id': 840, 
+                    # },                                                          # this needs to be sent to db_city
+                    'country_of_death': 840,
                     'status': None,
                     'plot': None,
                     'demographics': None,
                     'edu_occ': None,
+                    'religion': None,
                     'core_ideology': None,
                     'foreign_ties': None,
                     'activity': None,
+                    'philosophy': None,
                     'sources': None,
                     'recent_status': rows['Recent Status'],
                     'last_updated': None,                                        # unsure about date - what is the specific type
                     'mugshot_file': None,
                     'flec_reason': rows['FLEC Reason'],
-                    'radicalization_reason_id': {
-                        'id': i+1,
-                        'reason': rows['Radicalization Reason'],
-                        'description': None
-                    },                                                          # this needs to be sent to c_radicalization
-                    # 'nonviolent_action':,         ?  
-                    # 'violent_action':,            ?
-                    # 'dropout':,                   ?
+
+                    'c_radicalization_reason': rows['Radicalization Reason'],
+                    'c_radicalization_description': None,
+                    # 'radicalization_reason_id': {
+                    #     'id': i+1,
+                    #     'reason': rows['Radicalization Reason'],
+                    #     'description': None
+                    # },                                                          # this needs to be sent to c_radicalization
+                    'nonviolent_action': None,         # ?  
+                    'violent_action': None,            # ?
+                    'dropout': None,                   # ?
                     'social_behavioral': rows['Social-Behavioral'],
-                    
+                    'domestic_extremist': None,
                     # below are dicts that will be cut out to go elsewhere
                     'db_de_arrest': {
                         'arrest_year': rows['Date of J6 Arrest'].split('-')[0],
@@ -146,23 +166,24 @@ class File:
                         'de_person_id': i+1
                     },
                     'db_de_citizenship': {
-                        'id': i+1,
+                        # 'id': i+1,
                         'citizenship_type': 'PRIMARY',
                         'country_id': 840,
                         'de_person_id': i+1
                     },
                     'db_de_residency': {
-                        'id': i+1,
+                        # 'id': i+1,
                         'residency_type': 'PRIMARY',
                         'country_id': 840,
                         'de_person_id': i+1
                     },
                     'db_de_personalias': {
-                        'id': i+1,
+                        # 'id': i+1,
                         'person_alias': rows['Alias'],
                         'de_person_id': i+1
                     },                                                          # this needs to be sent to db_personalalias
                 })
+                j+=1
         
     def handle_endpoints(self) -> None:
         ''' '''
